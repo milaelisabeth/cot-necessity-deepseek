@@ -1,0 +1,142 @@
+{
+  "aqua/flash/100": {
+    "prompt_tokens": 5932,
+    "completion_tokens": 11904,
+    "reasoning_tokens": 9286,
+    "n": 40,
+    "n_new_calls": 0
+  },
+  "aqua/flash/0": {
+    "prompt_tokens": 7728,
+    "completion_tokens": 5185,
+    "reasoning_tokens": 4985,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/flash/25": {
+    "prompt_tokens": 9476,
+    "completion_tokens": 4704,
+    "reasoning_tokens": 4509,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/flash/50": {
+    "prompt_tokens": 11881,
+    "completion_tokens": 4724,
+    "reasoning_tokens": 4524,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/flash/75": {
+    "prompt_tokens": 14604,
+    "completion_tokens": 1982,
+    "reasoning_tokens": 1782,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/pro/100": {
+    "prompt_tokens": 8052,
+    "completion_tokens": 16306,
+    "reasoning_tokens": 13675,
+    "n": 40,
+    "n_new_calls": 0
+  },
+  "aqua/pro/0": {
+    "prompt_tokens": 9848,
+    "completion_tokens": 7250,
+    "reasoning_tokens": 7050,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/pro/25": {
+    "prompt_tokens": 12684,
+    "completion_tokens": 7338,
+    "reasoning_tokens": 7133,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/pro/50": {
+    "prompt_tokens": 16436,
+    "completion_tokens": 5257,
+    "reasoning_tokens": 5057,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "aqua/pro/75": {
+    "prompt_tokens": 20221,
+    "completion_tokens": 3096,
+    "reasoning_tokens": 2896,
+    "n": 40,
+    "n_new_calls": 40
+  },
+  "logiqa/flash/100": {
+    "prompt_tokens": 10539,
+    "completion_tokens": 53608,
+    "reasoning_tokens": 51615,
+    "n": 39,
+    "n_new_calls": 0
+  },
+  "logiqa/flash/0": {
+    "prompt_tokens": 12257,
+    "completion_tokens": 35958,
+    "reasoning_tokens": 35773,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/flash/25": {
+    "prompt_tokens": 24660,
+    "completion_tokens": 43433,
+    "reasoning_tokens": 43248,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/flash/50": {
+    "prompt_tokens": 37196,
+    "completion_tokens": 29483,
+    "reasoning_tokens": 29323,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/flash/75": {
+    "prompt_tokens": 50141,
+    "completion_tokens": 13899,
+    "reasoning_tokens": 13719,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/pro/100": {
+    "prompt_tokens": 12692,
+    "completion_tokens": 60455,
+    "reasoning_tokens": 59326,
+    "n": 39,
+    "n_new_calls": 0
+  },
+  "logiqa/pro/0": {
+    "prompt_tokens": 14410,
+    "completion_tokens": 42072,
+    "reasoning_tokens": 41887,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/pro/25": {
+    "prompt_tokens": 28641,
+    "completion_tokens": 43099,
+    "reasoning_tokens": 42909,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/pro/50": {
+    "prompt_tokens": 43668,
+    "completion_tokens": 48350,
+    "reasoning_tokens": 48170,
+    "n": 39,
+    "n_new_calls": 39
+  },
+  "logiqa/pro/75": {
+    "prompt_tokens": 58608,
+    "completion_tokens": 35986,
+    "reasoning_tokens": 35801,
+    "n": 39,
+    "n_new_calls": 39
+  }
+}

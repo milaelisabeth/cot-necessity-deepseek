@@ -1,0 +1,26 @@
+{
+  "aqua/flash": {
+    "prompt_tokens": 5932,
+    "completion_tokens": 11904,
+    "reasoning_tokens": 9286,
+    "n": 40
+  },
+  "aqua/pro": {
+    "prompt_tokens": 8052,
+    "completion_tokens": 16306,
+    "reasoning_tokens": 13675,
+    "n": 40
+  },
+  "logiqa/flash": {
+    "prompt_tokens": 10876,
+    "completion_tokens": 61608,
+    "reasoning_tokens": 59615,
+    "n": 40
+  },
+  "logiqa/pro": {
+    "prompt_tokens": 12996,
+    "completion_tokens": 68455,
+    "reasoning_tokens": 67326,
+    "n": 40
+  }
+}

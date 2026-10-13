@@ -1,0 +1,1002 @@
+[
+  {
+    "original": {
+      "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?",
+      "options": [
+        "A)20%",
+        "B)30%",
+        "C)40%",
+        "D)50%",
+        "E)60%"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "At Karlen college, 28% of all students are members of both a drama club and a debate team. If 30% of members of the debate team are not members of the drama club, what percentage of all Karlen students are members of the debate team?",
+      "options": [
+        "A)20%",
+        "B)30%",
+        "C)40%",
+        "D)50%",
+        "E)60%"
+      ],
+      "gt_answer": "C",
+      "verification_note": "30% of debate members are not in drama, so 70% are in both. 0.70 * D = 28%, so D = 40%, which is option C."
+    }
+  },
+  {
+    "original": {
+      "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?",
+      "options": [
+        "A)15",
+        "B)24",
+        "C)25",
+        "D)40",
+        "E)52"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "A sales person gets a 5% commission on each sale he makes. How many sales of $400 each must he make in order to reach a salary of at least $1600?",
+      "options": [
+        "A)32",
+        "B)64",
+        "C)75",
+        "D)80",
+        "E)104"
+      ],
+      "gt_answer": "D",
+      "verification_note": "5% of $400 = $20 per sale; $1600 / $20 = 80 sales, which matches option D."
+    }
+  },
+  {
+    "original": {
+      "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?",
+      "options": [
+        "A)520",
+        "B)720",
+        "C)920",
+        "D)None",
+        "E)Cannot be determined"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Suppose you want to arrange your Physics, Chemistry, Biology, Economics, Civics, Sanskrit and Art books on a shelf. In how many ways can you do it ?",
+      "options": [
+        "A)4040",
+        "B)5040",
+        "C)6040",
+        "D)None",
+        "E)Cannot be determined"
+      ],
+      "gt_answer": "B",
+      "verification_note": "There are 7 distinct books, so the number of arrangements is 7! = 5040, which matches option B."
+    }
+  },
+  {
+    "original": {
+      "question": "A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter.",
+      "options": [
+        "A)18cm",
+        "B)22cm",
+        "C)20cm",
+        "D)30cm",
+        "E)28cm"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "A rectangle has a length of 9 centimeters and a width of 5 centimeters. Find the perimeter.",
+      "options": [
+        "A)24cm",
+        "B)28cm",
+        "C)14cm",
+        "D)45cm",
+        "E)32cm"
+      ],
+      "gt_answer": "B",
+      "verification_note": "Perimeter = 2*(9+5) = 2*14 = 28 cm, which matches option B. The other options are wrong: 14 is only the semi-perimeter and 45 is the area."
+    }
+  },
+  {
+    "original": {
+      "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?",
+      "options": [
+        "A)40",
+        "B)200",
+        "C)380",
+        "D)400",
+        "E)3200"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "25 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 25 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?",
+      "options": [
+        "A)50",
+        "B)250",
+        "C)600",
+        "D)625",
+        "E)5000"
+      ],
+      "gt_answer": "D",
+      "verification_note": "The second draw has 1 black out of 25, which is 4%. The bag has 25 black marbles, so 25/Q = 1/25 and Q = 625, which is option D."
+    }
+  },
+  {
+    "original": {
+      "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+      "options": [
+        "A)81900",
+        "B)85995",
+        "C)85800",
+        "D)90000",
+        "E)None of these"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "If the population of a town increases by 4 % annually, what will be the population of the town in 2 years time if its current population is 62500?",
+      "options": [
+        "A)65000",
+        "B)67600",
+        "C)67500",
+        "D)70000",
+        "E)None of these"
+      ],
+      "gt_answer": "B",
+      "verification_note": "62500 \u00d7 1.04 = 65000; 65000 \u00d7 1.04 = 67600, which matches option B."
+    }
+  },
+  {
+    "original": {
+      "question": "The sum of the digits of a three digit number is 17, and the sum of the squares of its digits is 109. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number.",
+      "options": [
+        "A)368",
+        "B)377",
+        "C)288",
+        "D)997",
+        "E)112"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "The sum of the digits of a three digit number is 13, and the sum of the squares of its digits is 69. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number.",
+      "options": [
+        "A)742",
+        "B)847",
+        "C)652",
+        "D)973",
+        "E)427"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Subtracting the reverse gives 99(a-c)=495, so a-c=5. Testing the candidates gives a=7, b=4, c=2: digit sum 13, squares 49+16+4=69, and 742-495=247, which is the reverse. All other (a,c) pairs fail the sum of squares, so 742 (option A) is the only answer."
+    }
+  },
+  {
+    "original": {
+      "question": "What should come in place of the question mark(?) in each of the following questions ?\na2 - b2/(a + b)2 (?)=(a - b)2",
+      "options": [
+        "A)(a + b)(a - b)",
+        "B)(a - b)2",
+        "C)(a + b)2",
+        "D)a3 + b3",
+        "E)None of these"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "What should come in place of the question mark(?) in each of the following questions ?\n(x^2 - y^2)/(x - y)^2 \u00d7 (?) = (x + y)^3",
+      "options": [
+        "A)(x + y)^2(x - y)",
+        "B)(x + y)(x - y)^2",
+        "C)(x - y)^2",
+        "D)x^3 - y^3",
+        "E)None of these"
+      ],
+      "gt_answer": "A",
+      "verification_note": "(x^2 - y^2)/(x - y)^2 = (x + y)/(x - y). So ? = (x + y)^3 \u00d7 (x - y)/(x + y) = (x + y)^2(x - y), which is option A. Check: (x + y)/(x - y) \u00d7 (x + y)^2(x - y) = (x + y)^3."
+    }
+  },
+  {
+    "original": {
+      "question": "In a survey of students, each student selected from a list of 10 songs the 2 songs that the student liked best. If each song was selected 5 times, how many students were surveyed?",
+      "options": [
+        "A)96",
+        "B)48",
+        "C)32",
+        "D)25",
+        "E)18"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "In a survey of students, each student selected from a list of 15 songs the 3 songs that the student liked best. If each song was selected 6 times, how many students were surveyed?",
+      "options": [
+        "A)180",
+        "B)90",
+        "C)45",
+        "D)30",
+        "E)18"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Total selections = 15 songs \u00d7 6 selections each = 90. Each student makes 3 selections, so students = 90 / 3 = 30, which is option D."
+    }
+  },
+  {
+    "original": {
+      "question": "A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is",
+      "options": [
+        "A)4 1/3 km/h",
+        "B)7 2/3 km/h",
+        "C)9 \u00bd km/h",
+        "D)8 km/h",
+        "E)81 km/h"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A man walks at 7 kmph for 4 hrs and at 5 kmph for 8 hrs. His average speed is",
+      "options": [
+        "A)5 2/3 km/h",
+        "B)9 1/3 km/h",
+        "C)11 \u00bd km/h",
+        "D)6 km/h",
+        "E)68 km/h"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Distance = 7*4 + 5*8 = 28 + 40 = 68 km; time = 4 + 8 = 12 hrs; average speed = 68/12 = 5 2/3 km/h, which matches option A."
+    }
+  },
+  {
+    "original": {
+      "question": "The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer?",
+      "options": [
+        "A)10%",
+        "B)25%",
+        "C)28%",
+        "D)30%",
+        "E)36%"
+      ],
+      "gt_answer": "E"
+    },
+    "perturbed": {
+      "question": "A manufacturer of bicycle helmets is offering a 30% discount on the price of its premium helmets. Some retailers are offering additional discounts. If a retailer offers an additional 10% discount, then what is the total discount available at that retailer?",
+      "options": [
+        "A)10%",
+        "B)25%",
+        "C)30%",
+        "D)40%",
+        "E)37%"
+      ],
+      "gt_answer": "E",
+      "verification_note": "Price after both discounts = 0.70 \u00d7 0.90 = 0.63 of original, so total discount = 37%, which matches option E."
+    }
+  },
+  {
+    "original": {
+      "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?",
+      "options": [
+        "A)0.22",
+        "B)0.26",
+        "C)0.37",
+        "D)0.46",
+        "E)0.63"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "If the probability that Stock A will increase in value during the next month is 0.62, and the probability that Stock B will increase in value during the next month is 0.81. What is the greatest value for the probability that neither of these two events will occur?",
+      "options": [
+        "A)0.15",
+        "B)0.19",
+        "C)0.38",
+        "D)0.47",
+        "E)0.57"
+      ],
+      "gt_answer": "B",
+      "verification_note": "P(neither) = 1 - P(A or B). The union is at least max(0.62, 0.81) = 0.81, so P(neither) is at most 1 - 0.81 = 0.19, which is option B."
+    }
+  },
+  {
+    "original": {
+      "question": "A man spends Rs. 3500 per month and saves 12 1/2% of his income. His monthly income is ?",
+      "options": [
+        "A)Rs. 4400",
+        "B)Rs. 4270",
+        "C)Rs. 4000",
+        "D)Rs. 3937.50",
+        "E)None of these"
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "A man spends Rs. 4500 per month and saves 16 2/3% of his income. His monthly income is ?",
+      "options": [
+        "A)Rs. 5800",
+        "B)Rs. 5250",
+        "C)Rs. 5400",
+        "D)Rs. 5062.50",
+        "E)None of these"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Saving 16 2/3% = 1/6 of income, so spending = 5/6 of income. Income = 4500 \u00d7 6/5 = 5400, which matches option C."
+    }
+  },
+  {
+    "original": {
+      "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+      "options": [
+        "A)A)59",
+        "B)B)69",
+        "C)C)79",
+        "D)D)89",
+        "E)E)99"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "When I was 8 years old, my brother was half my age. Now I am 50 years old, how old is my brother?",
+      "options": [
+        "A)A)36",
+        "B)B)46",
+        "C)C)56",
+        "D)D)66",
+        "E)E)76"
+      ],
+      "gt_answer": "B",
+      "verification_note": "At age 8, brother was 4, so he is 4 years younger. Now 50 - 4 = 46, which matches option B."
+    }
+  },
+  {
+    "original": {
+      "question": "The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck?",
+      "options": [
+        "A)40.8",
+        "B)41.6",
+        "C)42.2",
+        "D)43.5",
+        "E)44.8"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "The average (arithmetic mean) of the weight of 8 vehicles is 15.4 tons. The average weight of the group of vehicles increased by 2.2 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck?",
+      "options": [
+        "A)35.2",
+        "B)36.0",
+        "C)36.8",
+        "D)37.5",
+        "E)38.4"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Original total = 8*15.4 = 123.2. New average = 15.4 + 2.2 = 17.6 across 9 vehicles, so the new total = 9*17.6 = 158.4. Truck weight = 158.4 - 123.2 = 35.2, which matches option A."
+    }
+  },
+  {
+    "original": {
+      "question": "How many ways A boy can reach the top of stairs which contain 10 steps, when he can take either one or two steps every time?",
+      "options": [
+        "A)88",
+        "B)89",
+        "C)90",
+        "D)91",
+        "E)92"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "In how many ways can a girl reach the top of a staircase that has 12 steps, if she can take either one or two steps each time?",
+      "options": [
+        "A)230",
+        "B)231",
+        "C)232",
+        "D)233",
+        "E)234"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Let W(n) = W(n-1) + W(n-2) with W(1)=1 and W(2)=2. This gives 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, so W(12)=233, which is option D."
+    }
+  },
+  {
+    "original": {
+      "question": "If x<0, y>0, and |x^3| > |y^2|, which of the following must be true?",
+      "options": [
+        "A)x > y",
+        "B)y^2 > x^2",
+        "C)-x^3 < y^2",
+        "D)\u2013x < y",
+        "E)x < \u2013y"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "If x<0, y>0, and |x^4| > |y^4|, which of the following must be true?",
+      "options": [
+        "A)x > y",
+        "B)y^4 > x^4",
+        "C)-x^3 < y^3",
+        "D)\u2013x < y",
+        "E)x < \u2013y"
+      ],
+      "gt_answer": "E",
+      "verification_note": "|x^4| > |y^4| means |x| > |y|. With x<0 this gives -x > y, so x < -y (E). Test x=-3, y=2: A false (-3>2), B false (16>81), C false (27<8), D false (3<2), E true (-3<-2). Only E must be true. The original item's key (B) is incorrect, so this version was built with a consistent condition."
+    }
+  },
+  {
+    "original": {
+      "question": "A box contains a certain number of balls, marked successively from 1 to n. If there are 45 different ways that two balls can be selected from the box such that the ball with number 3 marked on it is not selected, then what is the value of n?",
+      "options": [
+        "A)11",
+        "B)10",
+        "C)9",
+        "D)8",
+        "E)7"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A bag contains a certain number of tokens, numbered successively from 1 to n. If there are 66 different ways that two tokens can be selected from the bag such that the token with number 5 on it is not selected, then what is the value of n?",
+      "options": [
+        "A)13",
+        "B)12",
+        "C)11",
+        "D)10",
+        "E)9"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Excluding token 5 leaves n-1 tokens, so C(n-1,2)=66 gives (n-1)(n-2)=132, so n-1=12 and n=13, which is option A. Check: C(12,2)=66."
+    }
+  },
+  {
+    "original": {
+      "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?",
+      "options": [
+        "A)Rs. 666",
+        "B)Rs. 670",
+        "C)Rs. 700",
+        "D)Rs. 570",
+        "E)Rs. 770"
+      ],
+      "gt_answer": "E"
+    },
+    "perturbed": {
+      "question": "The bus fare of one adult is Rs. 180 from Lucknow to Delhi and the bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 5 adults and 3 children between the same places?",
+      "options": [
+        "A)Rs. 1060",
+        "B)Rs. 1090",
+        "C)Rs. 1120",
+        "D)Rs. 1050",
+        "E)Rs. 1170"
+      ],
+      "gt_answer": "E",
+      "verification_note": "Child fare = 180/2 = 90. 5 adults = 5*180 = 900. 3 children = 3*90 = 270. Total = 900 + 270 = 1170, which matches option E."
+    }
+  },
+  {
+    "original": {
+      "question": "All 250 files on Sam's hard drive are infected by either a virus or a worm or both. The number of files that are infected only by a worm is 2.5 times the number of files that are infected by both a virus and a worm. If 50% of the files were not infected by a virus, how many of Sam's files were NOT infected by a worm?",
+      "options": [
+        "A)50",
+        "B)70",
+        "C)75",
+        "D)100",
+        "E)125"
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "All 360 files on Maya's laptop are infected by either a virus or a worm or both. The number of files that are infected only by a worm is 3 times the number of files that are infected by both a virus and a worm. If 50% of the files were not infected by a virus, how many of Maya's files were NOT infected by a worm?",
+      "options": [
+        "A)60",
+        "B)90",
+        "C)100",
+        "D)120",
+        "E)180"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Files not infected by a virus = 50% of 360 = 180, which equals the worm-only files. Both = 180/3 = 60. Virus-only = 360 - 180 - 60 = 120. Files not infected by a worm are the virus-only files, so the answer is 120, which is option D."
+    }
+  },
+  {
+    "original": {
+      "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?",
+      "options": [
+        "A)y/(1200xy)",
+        "B)20xy/w",
+        "C)5xy/(12w)",
+        "D)w/(3xy)",
+        "E)3y/(wx)"
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "A certain liquid passes through a drain at a rate of w/40 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?",
+      "options": [
+        "A)y/(2400xy)",
+        "B)40xy/w",
+        "C)2xy/(3w)",
+        "D)w/(5xy)",
+        "E)5y/(wx)"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Rate = w/40 gallons per x seconds, so y gallons take y/(w/40) * x = 40xy/w seconds. Dividing by 60 gives 40xy/(60w) = 2xy/(3w) minutes, which matches option C."
+    }
+  },
+  {
+    "original": {
+      "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years. What is definitely the difference between R and Q's age?",
+      "options": [
+        "A)22",
+        "B)27",
+        "C)29",
+        "D)Cannot be determined",
+        "E)None of the above"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "P is as much younger than S as he is older than M. If the sum of the ages of S and M is 64 years, what is definitely the difference between S and P's age?",
+      "options": [
+        "A)18",
+        "B)23",
+        "C)31",
+        "D)Cannot be determined",
+        "E)None of the above"
+      ],
+      "gt_answer": "D",
+      "verification_note": "S - P = P - M implies P = (S+M)/2 = 32, but the difference S - P can take many values depending on the individual ages of S and M, so it cannot be determined. The answer is D."
+    }
+  },
+  {
+    "original": {
+      "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending?",
+      "options": [
+        "A)6",
+        "B)8",
+        "C)10",
+        "D)12",
+        "E)14"
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "If Maria needed to buy 9 bottles of juice for a party in which 6 people attended, how many bottles of juice will she need to buy for a party in which 10 people are attending?",
+      "options": [
+        "A)9",
+        "B)12",
+        "C)15",
+        "D)18",
+        "E)21"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Assuming the same rate per person, 9/6 = 1.5 bottles per person, and 1.5 \u00d7 10 = 15, which is option C. The original item's key (10 bottles for 12 guests) did not follow from proportional reasoning, so I used the consistent proportional interpretation."
+    }
+  },
+  {
+    "original": {
+      "question": "Three friends Alan, Roger and Peter attempt to answer a question on an exam. Alan randomly guesses the answer, giving him a 1/5 probability of guessing correctly. Roger cheats by looking at the paper of the student in front of him, giving him a 2/3 probability of answering correctly. And Peter dutifully performs the calculations, then marks the answer, giving him a 5/6 probability of a correct answer. What is the probability that the question is answered correctly, but not via cheating?",
+      "options": [
+        "A)1/18",
+        "B)1/9",
+        "C)23/90",
+        "D)5/18",
+        "E)13/45"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "Three friends Alan, Roger and Peter attempt to answer a question on an exam. Alan randomly guesses the answer, giving him a 1/4 probability of guessing correctly. Roger cheats by looking at the paper of the student in front of him, giving him a 3/5 probability of answering correctly. And Peter dutifully performs the calculations, then marks the answer, giving him a 4/7 probability of a correct answer. What is the probability that the question is answered correctly, but not via cheating?",
+      "options": [
+        "A)2/35",
+        "B)3/35",
+        "C)1/7",
+        "D)19/70",
+        "E)13/35"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Following the original's structure (Alan correct, Roger not correct, Peter correct): 1/4 * (1 - 3/5) * 4/7 = 1/4 * 2/5 * 4/7 = 8/140 = 2/35, which is option A. The original gives 1/5 * 1/3 * 5/6 = 1/18, also option A."
+    }
+  },
+  {
+    "original": {
+      "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.",
+      "options": [
+        "A)144km",
+        "B)72 km",
+        "C)126km",
+        "D)84 km",
+        "E)48km"
+      ],
+      "gt_answer": "E"
+    },
+    "perturbed": {
+      "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 45 kmph and Bob travels at 75 kmph. By the time they meet for the second time, Bob covers 54 km more than Allen. Find the distance between X and Y.",
+      "options": [
+        "A)144km",
+        "B)96 km",
+        "C)126km",
+        "D)84 km",
+        "E)72km"
+      ],
+      "gt_answer": "E",
+      "verification_note": "At the second meeting the combined distance is 3D. The speed ratio is 45:75 = 3:5, so Bob covers 5/8 of 3D and Allen covers 3/8 of 3D. The difference is (2/8)(3D) = 3D/4 = 54, so D = 72 km, which is option E. Timeline check: they meet at t = 216/120 = 1.8 h, where Bob has covered 135 km and Allen 81 km, a difference of 54 km."
+    }
+  },
+  {
+    "original": {
+      "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years",
+      "options": [
+        "A)18",
+        "B)25",
+        "C)15",
+        "D)20",
+        "E)21"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Ravi was twice as old as Amit 12 years back. How old is Amit today if Ravi will be 50 years old in 8 years",
+      "options": [
+        "A)22",
+        "B)30",
+        "C)27",
+        "D)24",
+        "E)25"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Ravi today = 50 - 8 = 42. 12 years back Ravi was 30, so Amit was 15 then. Amit today = 15 + 12 = 27, which is option C."
+    }
+  },
+  {
+    "original": {
+      "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 extra, each. The number of those who attended the picnic was",
+      "options": [
+        "A)8",
+        "B)12",
+        "C)16",
+        "D)24",
+        "E)25"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A number of friends decided to go on a trip and planned to spend Rs. 90 on snacks. Five of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 3 extra, each. The number of those who attended the trip was",
+      "options": [
+        "A)10",
+        "B)15",
+        "C)18",
+        "D)20",
+        "E)25"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Let n attend, so n+5 were planned. 90/n - 90/(n+5) = 3 gives 450 = 3n(n+5), so n^2+5n-150=0, (n+15)(n-10)=0, n=10. Check: 90/10=9, 90/15=6, difference 3. This matches option A."
+    }
+  },
+  {
+    "original": {
+      "question": "In a class, 8% of total students are interested in Football. 4/5 of total students are interested in Cricket. 10% of total students are interested in Basketball and remaining 20 students are not interested in any games. How many students are there in the class?",
+      "options": [
+        "A)850",
+        "B)800",
+        "C)900",
+        "D)950",
+        "E)1000"
+      ],
+      "gt_answer": "E"
+    },
+    "perturbed": {
+      "question": "In a school, 15% of total students are interested in Football. 3/5 of total students are interested in Cricket. 20% of total students are interested in Basketball and the remaining 24 students are not interested in any games. How many students are there in the school?",
+      "options": [
+        "A)420",
+        "B)450",
+        "C)480",
+        "D)520",
+        "E)600"
+      ],
+      "gt_answer": "C",
+      "verification_note": "15% + 60% + 20% = 95%, so the remaining 5% = 24 students. Total = 24 / 0.05 = 480, which is option C."
+    }
+  },
+  {
+    "original": {
+      "question": "Car \u2018X\u2019 covers a distance of 320 kms in 8 hours and car \u2018Y\u2019 covers a distance of 415 kms in 5 hrs. What is the difference in the speed of the two cars?",
+      "options": [
+        "A)42kms/hr",
+        "B)41km/hr",
+        "C)43kms/hr",
+        "D)45kms/hr",
+        "E)None of these"
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "Car \u2018P\u2019 covers a distance of 270 kms in 9 hours and car \u2018Q\u2019 covers a distance of 424 kms in 8 hrs. What is the difference in the speed of the two cars?",
+      "options": [
+        "A)21kms/hr",
+        "B)22km/hr",
+        "C)23kms/hr",
+        "D)25kms/hr",
+        "E)None of these"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Speed of P = 270/9 = 30 km/hr; speed of Q = 424/8 = 53 km/hr; difference = 53 - 30 = 23 km/hr, which matches option C."
+    }
+  },
+  {
+    "original": {
+      "question": "Fernando purchased a university meal plan that allows him to have a total of 3 lunches and 3 dinners per week. If the cafeteria is closed on weekends and Fernando always goes home for a dinner on Friday nights, how many options does he have to allocate his meals?",
+      "options": [
+        "A)5C3*4C3",
+        "B)5C4*4C2",
+        "C)5C2*4C4",
+        "D)5C6*4C5",
+        "E)4C3*4C3"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "Marisol bought a campus meal plan that allows her to have a total of 2 lunches and 4 dinners per week. If the cafeteria is closed on weekends and Marisol always goes home for dinner on Friday nights, how many options does she have to allocate her meals?",
+      "options": [
+        "A)5C4*4C2",
+        "B)5C2*4C2",
+        "C)5C2*4C4",
+        "D)4C2*4C4",
+        "E)5C4*4C4"
+      ],
+      "gt_answer": "C",
+      "verification_note": "The cafeteria is open Monday to Friday, so there are 5 lunch days: choose 2, giving 5C2 = 10. Dinners are possible only Monday to Thursday since Friday dinner is at home, so there are 4 dinner days: choose 4, giving 4C4 = 1. The total is 5C2*4C4 = 10, which matches option C. The other options evaluate to 30, 60, 6 and 5, so none of them equals 10."
+    }
+  },
+  {
+    "original": {
+      "question": "A grocery sells a bag of ice for $1.25, and makes 20% profit. If it sells 500 bags of ice, how much total profit does it make?",
+      "options": [
+        "A)125",
+        "B)150",
+        "C)225",
+        "D)250",
+        "E)275"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A grocery sells a bag of ice for $2.40, and makes 25% profit. If it sells 600 bags of ice, how much total profit does it make? (The profit is 25% of the selling price.)",
+      "options": [
+        "A)360",
+        "B)400",
+        "C)450",
+        "D)480",
+        "E)540"
+      ],
+      "gt_answer": "A",
+      "verification_note": "Revenue = 600 \u00d7 2.40 = 1440; profit = 25% of 1440 = 360, which matches option A. This follows the original problem's interpretation, where profit is a percentage of the selling price (500 \u00d7 1.25 = 625, and 20% of 625 = 125)."
+    }
+  },
+  {
+    "original": {
+      "question": "Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ?",
+      "options": [
+        "A)22 minutes",
+        "B)30 minutes",
+        "C)15 minutes",
+        "D)24 minutes",
+        "E)35 minutes"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Maria has 5 books. If she decides to arrange the 5 books in every possible order and moves just one book every minute, how long would it take her?",
+      "options": [
+        "A)100 minutes",
+        "B)144 minutes",
+        "C)90 minutes",
+        "D)120 minutes",
+        "E)130 minutes"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Arrangements of 5 books = 5! = 120, at one move per minute that is 120 minutes, which matches option D. This mirrors the original, where 4! = 24."
+    }
+  },
+  {
+    "original": {
+      "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?",
+      "options": [
+        "A)15",
+        "B)16",
+        "C)17",
+        "D)18",
+        "E)19"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "Maya and Ethan work at a toy shop that makes toys. Maya takes 6 hours to make a toy, and Ethan takes 11 hours to make a toy. During a month, both of them make 40 toys in total. If both of them have worked for almost similar number of hours, how many toys have been prepared by Ethan?",
+      "options": [
+        "A)12",
+        "B)13",
+        "C)14",
+        "D)15",
+        "E)16"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Equal hours means 6m = 11e with m + e = 40, so e = 40*6/17 \u2248 14.12, which rounds to 14. Then m = 26. Hours worked are 26*6 = 156 and 14*11 = 154, which are almost equal. This matches option C."
+    }
+  },
+  {
+    "original": {
+      "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is?",
+      "options": [
+        "A)26",
+        "B)28",
+        "C)21",
+        "D)80",
+        "E)23"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 16 m wide at the top and 6 m wide at the bottom and the area of cross-section is 770 square meters, the depth of the canal is?",
+      "options": [
+        "A)35",
+        "B)38",
+        "C)31",
+        "D)70",
+        "E)33"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Area = 1/2 \u00d7 (16 + 6) \u00d7 depth = 11 \u00d7 depth = 770, so depth = 70, which matches option D."
+    }
+  },
+  {
+    "original": {
+      "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?",
+      "options": [
+        "A)20%",
+        "B)25%",
+        "C)30%",
+        "D)35%",
+        "E)40%"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "Maria filled her cat's bowl with cat food. Starting at 7:00 am, Maria's cat ate exactly once an hour, consuming exactly 1/4 of the cat food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the cat's bowl right before the cat began to eat at noon of the same day?",
+      "options": [
+        "A)14%",
+        "B)19%",
+        "C)24%",
+        "D)29%",
+        "E)34%"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Feedings occur at 7, 8, 9, 10 and 11 (5 feedings before noon). Each leaves 3/4 of the food, so the remaining fraction is (3/4)^5 = 243/1024 \u2248 23.7%, which is closest to 24%, option C."
+    }
+  },
+  {
+    "original": {
+      "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?",
+      "options": [
+        "A)0.2",
+        "B)0.4",
+        "C)0.6",
+        "D)1.2",
+        "E)1.5"
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "Let A and B be independent events with P(A) = 0.3 and P(B) = 0.7. Find P(A/B)?",
+      "options": [
+        "A)0.3",
+        "B)0.6",
+        "C)0.9",
+        "D)1.4",
+        "E)1.7"
+      ],
+      "gt_answer": "A",
+      "verification_note": "For independent events, P(A|B) = P(A\u2229B)/P(B) = (0.3\u00d70.7)/0.7 = 0.3, which matches option A."
+    }
+  },
+  {
+    "original": {
+      "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?",
+      "options": [
+        "A)8.5",
+        "B)10.5",
+        "C)12.5",
+        "D)14.5",
+        "E)16.5"
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "One gram of a certain nutrition bar contains 5 percent of the minimum daily requirement of vitamin D and 4 percent of the minimum daily requirement of vitamin B. If vitamins D and B are to be obtained from no other source, how many grams of the nutrition bar must be eaten daily to provide at least the minimum daily requirement of both vitamins?",
+      "options": [
+        "A)15",
+        "B)20",
+        "C)25",
+        "D)30",
+        "E)35"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Vitamin D needs 100/5 = 20 g and vitamin B needs 100/4 = 25 g. Both requirements must be met, so the larger amount, 25 g, is required. This matches option C."
+    }
+  },
+  {
+    "original": {
+      "question": "Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family?",
+      "options": [
+        "A)2",
+        "B)3",
+        "C)4",
+        "D)5",
+        "E)6"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Everyone in the family earns money each month. If the total income of a family per month is $12000 and the average (mean) income per member is $2400, how many members are there in the family?",
+      "options": [
+        "A)3",
+        "B)4",
+        "C)5",
+        "D)6",
+        "E)7"
+      ],
+      "gt_answer": "C",
+      "verification_note": "12000 / 2400 = 5 members, which matches option C. I used 'average (mean)' instead of 'median' because the median alone does not fix the number of family members, so the original wording is ill-posed."
+    }
+  },
+  {
+    "original": {
+      "question": "Mark told John \"If you give me half your money I will have Rs.75. John said, \"if you give me one third of your money, I will have Rs.75/-. How much money did John have ?",
+      "options": [
+        "A)22",
+        "B)60",
+        "C)28",
+        "D)26",
+        "E)18"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Tom told Ravi \"If you give me half your money I will have Rs.80.\" Ravi said, \"If you give me one third of your money, I will have Rs.80.\" How much money did Ravi have?",
+      "options": [
+        "A)40",
+        "B)56",
+        "C)64",
+        "D)72",
+        "E)48"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Let T = Tom's money, R = Ravi's money. T + R/2 = 80 and R + T/3 = 80. Then T = 80 - R/2, so R + 80/3 - R/6 = 80, so 5R/6 = 160/3, so R = 64 and T = 48. Check: 48 + 32 = 80 and 64 + 16 = 80. Option C = 64 matches."
+    }
+  },
+  {
+    "original": {
+      "question": "Two friends are eating a jar full of candies. Had P eaten alone, it would have taken him 10 minutes to finish the candies in the jar. Had Q eaten alone, it would have taken her 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar?",
+      "options": [
+        "A)4",
+        "B)5",
+        "C)6",
+        "D)7",
+        "E)8"
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Two friends are eating a jar full of cookies. Had Mia eaten alone, it would have taken her 15 minutes to finish the cookies in the jar. Had Noah eaten alone, it would have taken him 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar?",
+      "options": [
+        "A)4",
+        "B)5",
+        "C)6",
+        "D)7",
+        "E)8"
+      ],
+      "gt_answer": "C",
+      "verification_note": "Mia's rate is 1/15 jar per minute. Noah finishes a full jar in 10 minutes, so his rate is 1/10. Combined rate is 1/15 + 1/10 = 2/30 + 3/30 = 5/30 = 1/6, so the jar takes 6 minutes, which is option C."
+    }
+  }
+]

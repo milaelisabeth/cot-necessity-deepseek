@@ -1,0 +1,922 @@
+[
+  {
+    "original": {
+      "question": "Li Qiang said? \"I know 100 people.None of the people I know are unemployed, so the unemployment rate in China must be very low.\"\n\nWhich of the following best refutes Li Qiang's reasoning?",
+      "options": [
+        "A.There are children among the people Li Qiang knows.",
+        "B.The unemployment rate in the city where Li Qiang is located is different from other cities.",
+        "C.Due to the existence of floating population, it is difficult to calculate the unemployment rate.",
+        "D.The vast majority of Li Qiang knows are colleagues in the unit."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Marek Voss said: \"I know 100 people. None of the people I know are unemployed, so the unemployment rate in Zarenia must be very low.\"\n\nWhich of the following best refutes Marek Voss's reasoning?",
+      "options": [
+        "A.There are children among the people Marek Voss knows.",
+        "B.The unemployment rate in the city where Marek Voss lives is different from other cities.",
+        "C.Due to the existence of a transient population, it is difficult to calculate the unemployment rate.",
+        "D.The vast majority of the people Marek Voss knows are colleagues at his workplace."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only the speaker's name and the country were changed to fictional ones. The argument is still a generalization from a biased sample, and D still points out the sampling bias (colleagues are all employed). The correct answer remains D."
+    }
+  },
+  {
+    "original": {
+      "question": "A recent survey found that among people aged 30 to 45 in a country, more and more people go to the hospital to treat coronary heart disease, osteoporosis and other diseases, and most of the original patients with these confirmed symptoms are elderly people.Investigators therefore believe that the incidence of \"senile disease\" among young people in the country is increasing.\n\nIf any of the following is true, can you question the conclusion of the above survey most?",
+      "options": [
+        "A.Due to the improvement of the national medical security level, compared with the past, the people of the country are more qualified to pay attention to their physical health.",
+        "B.The minimum age of \"elderly\" is higher than before, and the range of patients with \"senile disease\" has also changed.",
+        "C.In recent years, due to the influx of immigrants, the number of young people under 45 in the country has increased dramatically.",
+        "D.Although coronary heart disease, osteoporosis and other diseases are common \"senile diseases\", the diseases of the elderly may not always be \"senile diseases\"."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "A recent survey found that among people aged 30 to 45 in the nation of Veldoria, more and more people go to the clinic to treat arterial blockage, bone-density loss and other diseases, and most of the earlier patients with these confirmed symptoms were elderly people. Investigators therefore believe that the incidence of \"late-life disease\" among young people in Veldoria is increasing.\n\nWhich of the following, if true, would most call into question the conclusion of the above survey?",
+      "options": [
+        "A. Due to the improvement of Veldoria's medical security level, compared with the past, the people of Veldoria are better positioned to pay attention to their physical health.",
+        "B. The minimum age of \"elderly\" is higher than before, and the range of patients with \"late-life disease\" has also changed.",
+        "C. In recent years, due to an influx of newcomers, the number of young people under 45 in Veldoria has increased dramatically.",
+        "D. Although arterial blockage, bone-density loss and other diseases are common \"late-life diseases\", the diseases of the elderly may not always be \"late-life diseases\"."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only the country, disease names, and the 'senile disease' label were changed. The logic is the same: a larger young population can raise the number of young patients without raising the incidence rate, so C still undermines the conclusion most, and the answer letter is unchanged."
+    }
+  },
+  {
+    "original": {
+      "question": "General commodities can only continue to add value in the process of being circulated many times.However, as a special commodity, works of art exhibit different characteristics from general commodities.In the auction market, the transaction prices of some antiques, calligraphy and paintings are very random, and are often directly affected by accidental factors such as the atmosphere of the auction site, the fierce auction price, and the psychological changes of buyers.Times and even hundreds of times make the artwork greatly increase in value in a \"circulation\".\n\nWhich of the following is the least helpful in explaining the above phenomenon?",
+      "options": [
+        "A.The unrenewability of the artwork determines that its exchange price may exceed its own value.",
+        "B.Many buyers like to collect, which raises the transaction price of artworks.",
+        "C.Some buyers are just speculating on artworks in order to obtain high profits.",
+        "D.Although a large amount of counterfeit products flood the market, it has no effect on the transaction price of artworks."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Ordinary goods can only continue to gain value by being circulated many times. However, as a special kind of goods, rare collectibles behave differently from ordinary goods. In the bidding market, the sale prices of some ancient manuscripts, ink scrolls, and portraits are highly arbitrary, and are often directly influenced by chance factors such as the mood of the bidding hall, the intensity of the bidding contest, and shifts in the psychology of bidders. Prices can rise several times or even hundreds of times, so that a collectible greatly increases in value in a single \"round of trading\".\n\nWhich of the following is the least helpful in explaining the above phenomenon?",
+      "options": [
+        "A.The impossibility of reproducing a collectible means that its trading price may exceed its own value.",
+        "B.Many bidders enjoy collecting, which pushes up the sale prices of collectibles.",
+        "C.Some bidders are merely speculating on collectibles in order to make large profits.",
+        "D.Although a large number of imitation items flood the market, this has no effect on the sale prices of collectibles."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only surface terms changed (artworks -> rare collectibles, auction -> bidding). The structure is identical: options A-C each explain why prices can far exceed value, while D says counterfeits have no effect on prices, which does not explain the phenomenon. The answer stays D."
+    }
+  },
+  {
+    "original": {
+      "question": "On an island, there are three types of seabirds? puffin, eel and arctic tern.Among them, eels are the main food for arctic terns and puffins.In the ten years from 1980 to 1990, the number of eels dropped from 1 million to 500,000.Strangely, the number of puffins has dropped from 1 million to only 600,000 in this decade, while the number of Arctic terns has dropped from 1 million to about 250,000.\n\nWhich of the following best explains the difference in the decline in the numbers of puffin and arctic tern between 1980 and 1990?",
+      "options": [
+        "A.Puffins have reduced their consumption of eels, and instead of stonefish or other fish, Arctic terns have not done so.",
+        "B.On other nearby islands with similar conditions, the numbers of these two seabirds are stable.",
+        "C.The decrease in eels is due to changes in their living environment and not due to excessive fishing by humans.",
+        "D.Puffins and Arctic Terns 'young birds' food is young eels."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "On a certain island, there are three types of creatures in a food relationship: kelp-hoppers, silverfish, and marsh herons. Among them, silverfish are the main food for both marsh herons and kelp-hoppers. In the ten years from 1980 to 1990, the number of silverfish dropped from 1 million to 500,000. Strangely, the number of kelp-hoppers dropped from 1 million to only 600,000 in this decade, while the number of marsh herons dropped from 1 million to about 250,000.\n\nWhich of the following best explains the difference in the decline in the numbers of kelp-hoppers and marsh herons between 1980 and 1990?",
+      "options": [
+        "A. Kelp-hoppers have reduced their consumption of silverfish and have switched to eating reef crabs or other prey, while marsh herons have not done so.",
+        "B. On other nearby islands with similar conditions, the numbers of these two species are stable.",
+        "C. The decrease in silverfish is due to changes in their living environment and not due to excessive fishing by humans.",
+        "D. The young of both kelp-hoppers and marsh herons feed on young silverfish."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Only names and entities were swapped (puffin->kelp-hopper, arctic tern->marsh heron, eel->silverfish, stonefish->reef crab). The correct explanation remains option A: one predator diversified its diet away from the declining prey while the other did not, explaining the smaller decline."
+    }
+  },
+  {
+    "original": {
+      "question": "Over the past few decades, the proportion of female students enrolled in higher education programs has been on the rise.This can be partially demonstrated by the fact that in 1959, only 11% of women between the ages of 20 and 21 were recruited Entering university, and in 1981, 30% of women between the ages of 20 and 21 were recruited into university.\n\nTo evaluate the above argument, which of the following characteristics in 1959 and 1981 is most useful?",
+      "options": [
+        "A.Proportion of women between the ages of 20 and 21 who are not enrolled in universities.",
+        "B.Proportion of women graduating from college between the ages of 20 and 21.",
+        "C.Proportion of women entering high-paying positions after receiving college education.",
+        "D.Proportion of men graduating from high school."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Over the past few decades, the proportion of Group X students enrolled in higher education programs in the nation of Valdoria has been on the rise. This can be partially demonstrated by the fact that in 1959, only 11% of Group X members between the ages of 20 and 21 were recruited into university, and in 1981, 30% of Group X members between the ages of 20 and 21 were recruited into university.\n\nTo evaluate the above argument, which of the following characteristics in 1959 and 1981 is most useful?",
+      "options": [
+        "A.Proportion of Group X members between the ages of 20 and 21 who are not enrolled in universities.",
+        "B.Proportion of Group X members graduating from college between the ages of 20 and 21.",
+        "C.Proportion of Group X members entering high-paying positions after receiving college education.",
+        "D.Proportion of Group Y members graduating from high school."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only surface details changed (the gender groups became neutral 'Group X' and 'Group Y', and a fictional country was added). The argument structure, the statistics (11% to 30%), and the option roles are identical, so the correct answer stays in slot D."
+    }
+  },
+  {
+    "original": {
+      "question": "Professor Zhang? During the economic depression in the West, the air pollution caused by automobile exhaust will be greatly improved, because the number of people driving to work is greatly reduced.Engineer Li? I am afraid this is not the case.The number of people who bought a new car during the depression was greatly reduced.The older the car, the greater the pollution caused by emissions exceeding the standard.\n\nWhich of the following most accurately summarizes the method used by Engineer Li's rebuttal?",
+      "options": [
+        "A.Using a counterexample to question Professor Zhang's argument.",
+        "B.Make a determination, as long as Professor Zhang's conclusion is not true, the determination must be true.",
+        "C.Put forward a consideration.Although it does not deny Professor Zhang's argument, it can weaken the support of this argument to its conclusion.",
+        "D.Demonstrate an opinion.Although Professor Zhang's argument is not persuasive, his conclusion is valid."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "Dr. Alvarez: During the economic downturn in the Northern Region, air pollution caused by automobile exhaust will improve greatly, because the number of people driving to work will fall sharply. Engineer Brandt: I'm afraid that's not so. The number of people buying new cars during the downturn dropped sharply. The older a car is, the greater the pollution from emissions exceeding the standard.\n\nWhich of the following most accurately summarizes the method used in Engineer Brandt's rebuttal?",
+      "options": [
+        "A. Using a counterexample to question Dr. Alvarez's argument.",
+        "B. Making an assertion that must be true as long as Dr. Alvarez's conclusion is not true.",
+        "C. Putting forward a consideration that, although it does not deny Dr. Alvarez's premise, weakens the support that premise gives to the conclusion.",
+        "D. Demonstrating a viewpoint: although Dr. Alvarez's argument is not persuasive, his conclusion is valid."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only names and region were changed; the argument structure (premise: fewer commuters; rebuttal: fewer new cars means older, more polluting cars, which weakens support without denying the premise) is identical, so the correct answer remains C."
+    }
+  },
+  {
+    "original": {
+      "question": "A researcher from a medical school at a university in the United States published a paper in the Journal of Pediatrics and pointed out that after a follow-up survey of children in 2 702 families, they found that if children watch TV for more than 2 hours a day before the age of 5, they The risk of behavioral problems will grow more than double when they grow up.The so-called behavior problems refer to the solitary personality, rude words and deeds, violation of others, and difficulty in cooperating with others.\n\nWhich of the following best explains the above discussion?",
+      "options": [
+        "A.TV programs will cause children to be curious, and it is easy to cause children to appear violent.",
+        "B.There are a lot of contents in the TV program that can easily make children in a state of tension and fear for a long time.",
+        "C.Watching TV for too long will affect the child's interaction with other people.Over time, the child will lack the experience of dealing with others.",
+        "D.Children have strong ability to imitate.If they are only interested in TV programs, over time, they will hinder their development of analytical skills."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "A researcher from a medical college at a university in the country of Veldoria published a paper in the Journal of Child Health and pointed out that after a follow-up survey of children in 2 702 households, they found that if children watch video screens for more than 2 hours a day before the age of 5, the risk of behavioral problems will grow more than double when they grow up. The so-called behavior problems refer to a solitary personality, rude words and deeds, violation of others' boundaries, and difficulty in cooperating with others.\n\nWhich of the following best explains the above discussion?",
+      "options": [
+        "A.Screen programs will make children curious, and it is easy to cause children to appear violent.",
+        "B.There is a lot of content in screen programs that can easily keep children in a state of tension and fear for a long time.",
+        "C.Watching screens for too long will affect the child's interaction with other people. Over time, the child will lack the experience of dealing with others.",
+        "D.Children have a strong ability to imitate. If they are only interested in screen programs, over time, this will hinder the development of their analytical skills."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only surface details changed (country, journal name, TV to screens); the argument structure and the correct explanation (reduced social interaction leading to lack of experience dealing with others) remain in option C."
+    }
+  },
+  {
+    "original": {
+      "question": "At the dinosaur excavation site in Xinjiang, experts predicted that dinosaur skulls may be found\n\nWhich of the following propositions has the same meaning as an expert?",
+      "options": [
+        "A.It is impossible not to find the dinosaur skull",
+        "B.The dinosaur skull is not necessarily found",
+        "C.Discovery of dinosaur skulls is unlikely",
+        "D.Not necessarily do not find the dinosaur skull"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "At the fossil excavation site in Marlowe Valley, experts predicted that dragon-lizard skulls may be found.\n\nWhich of the following propositions has the same meaning as the experts' prediction?",
+      "options": [
+        "A. It is impossible not to find the dragon-lizard skull",
+        "B. The dragon-lizard skull is not necessarily found",
+        "C. Discovery of dragon-lizard skulls is unlikely",
+        "D. Not necessarily do not find the dragon-lizard skull"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only the site, location, and fossil type were changed. The prediction 'may be found' (possibly P) is equivalent to 'not necessarily not P', which remains option D in the same slot; the other options retain their original modal structures."
+    }
+  },
+  {
+    "original": {
+      "question": "When the pigeon is walking, the head does not move back and forth regularly, but stretches forward.While walking, the pigeon's neck looks forward, and then the head stays still, waiting for the body and claws to follow.Some scholars once made a hypothesis about the phenomenon of pigeons stretching their necks while walking? while waiting for the body to follow up, a temporarily stationary head is helpful for the pigeons to obtain a stable field of vision and see the surrounding food.\n\nWhich of the following, if true, best supports the above assumption?",
+      "options": [
+        "A.If the pigeon does not stretch his neck while walking, it is difficult to find food in the distance.",
+        "B.For birds with too much stride, the extent of stretching their neck is much smaller than the stride.",
+        "C.The change in the walking speed of the pigeon stimulates the inner ear to control the organs that balance, causing the neck to stretch.",
+        "D.When the pigeons are walking, \"with one wing and one foot thrown\", natural reflexes of neck and head muscles may appear, so the head keeps moving."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "When the gull is walking, its head does not move back and forth regularly, but stretches forward. While walking, the gull's neck extends forward, and then the head stays still, waiting for the body and feet to follow. Some researchers once proposed a hypothesis about this neck-stretching phenomenon: while waiting for the body to follow up, a temporarily stationary head helps the gull obtain a stable field of vision and see the surrounding food.\n\nWhich of the following, if true, best supports the above hypothesis?",
+      "options": [
+        "A.If the gull does not stretch its neck while walking, it is difficult for it to find food in the distance.",
+        "B.For birds with an overly long stride, the extent of their neck stretching is much smaller than the stride.",
+        "C.The change in the gull's walking speed stimulates the inner ear to control the balance-regulating organs, causing the neck to stretch.",
+        "D.When gulls are walking, \"with one wing and one foot swung forward\", natural reflexes of the neck and head muscles may appear, so the head keeps moving."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Only the animal (pigeon to gull) and minor wording were changed; the hypothesis and the option roles are unchanged. Option A still directly supports the stable-vision-for-food hypothesis, and B, C, D still offer unrelated or alternative explanations, so the answer stays A."
+    }
+  },
+  {
+    "original": {
+      "question": "Self-intoxicated personality\" is a personality disorder characterized by over-emphasis on yourself.He has many specific characteristics? overestimating his own importance and exaggerating his achievements? strongly reflecting on criticism, hoping that others pay attention to and envious of himself; often indulge in fantasies, seeing himself as a special person; interpersonal relationships Unstable; jealous of others and harm others.\n\nIn addition to any of the following self-statements, all of them can reflect the characteristics of the above-mentioned \"self-intoxicated personality\"?",
+      "options": [
+        "A.I am the soul of this team.Once I leave this team, they will do nothing.",
+        "B.What is his qualification to criticize me? Let's see, he can't even see half of my ability.",
+        "C.My family conditions are not good, but I do not want to be looked down on by others, so I borrowed money to buy a smartphone.",
+        "D.Such an important event didn't invite me to participate.There must be something wrong with the character of the organizer, and it's not worth interacting with such a person."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "\"Self-absorbed personality\" is a personality disorder characterized by excessive focus on oneself. It has many specific characteristics: overestimating one's own importance and exaggerating one's achievements; reacting strongly to criticism, while hoping that others will pay attention to and envy oneself; often indulging in fantasies and viewing oneself as a special person; having unstable interpersonal relationships; and being jealous of others and harming them.\n\nExcept for which one of the following self-statements, all of them can reflect the characteristics of the above-mentioned \"self-absorbed personality\"?",
+      "options": [
+        "A. I am the heart of this crew. Once I leave this crew, they will accomplish nothing.",
+        "B. What qualifies him to criticize me? Honestly, he can't even grasp half of my ability.",
+        "C. My household finances are tight, but I don't want to be looked down on by others, so I borrowed money to buy a new tablet.",
+        "D. Such an important gathering didn't invite me to take part. There must be something wrong with the host's character, and it's not worth dealing with such a person."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only surface wording changed (team\u2192crew, smartphone\u2192tablet, event\u2192gathering, etc.); the exception remains the statement about borrowing money out of fear of being looked down upon, which does not reflect grandiosity or the listed traits, so the answer stays C."
+    }
+  },
+  {
+    "original": {
+      "question": "Office Director? This office does not intend to use recycled paper.Letters to users must leave a good impression.Cannot print on poor quality paper.Stationery suppliers? Recycling paper is not necessarily inferior.In fact, the original paper was made from recyclable materials.It was not until the 1850s that wood chips were used as papermaking raw materials due to the shortage of scrap materials.\n\nWhich of the following most appropriately summarizes the loopholes in the rebuttal of stationery suppliers?",
+      "options": [
+        "A.I don't realize that the director of the office's prejudice about recycling paper is due to some kind of ignorance.",
+        "B.Using irrelevant facts to prove a conclusion about product quality.",
+        "C.It is inappropriate to assume that the office director understands the paper manufacturing process.",
+        "D.Ignore the legal right of the director of the office to pay attention to product quality."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Warehouse Manager: Our warehouse does not intend to use recycled packing boxes. Shipments to customers must make a good impression. We cannot ship goods in poor quality boxes.\nBox supplier: Recycled boxes are not necessarily inferior. In fact, the earliest boxes were made from recyclable materials. It was not until the 1850s that fresh timber pulp was used as the raw material for making boxes, because of a shortage of scrap materials.\n\nWhich of the following most appropriately summarizes the flaw in the box supplier's rebuttal?",
+      "options": [
+        "A. It fails to realize that the warehouse manager's prejudice against recycled boxes stems from some kind of ignorance.",
+        "B. It uses irrelevant facts to support a conclusion about product quality.",
+        "C. It is inappropriate to assume that the warehouse manager understands the box manufacturing process.",
+        "D. It ignores the warehouse manager's legitimate right to be concerned about product quality."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only the surface details changed (office/paper/stationery supplier became warehouse/boxes/box supplier). The supplier's rebuttal still relies on historical facts about raw materials, which are irrelevant to current quality, so B remains correct."
+    }
+  },
+  {
+    "original": {
+      "question": "Some experts pointed out that China's urban planning lacks the necessary meteorological evidence, and the city's tall buildings are built high and dense, which hinders the city's ventilation cycle.Relevant information shows that the average wind speed in many cities in China has dropped by 10% in recent years.The decrease in wind speed means that the atmospheric diffusion capacity is weakened, which leads to the prolonged residence time of atmospheric pollutants, which is easy to form haze weather and heat island effect.To this end, some experts put forward the idea of \u200b\u200bestablishing an \"urban air duct\", that is, to create several unobstructed ventilation corridors in the city, so that the wind can enter and exit more freely in the city, and promote the urban air renewal cycle.\n\nWhich of the following, if true, is the most supportive of the aforementioned idea of \u200b\u200bestablishing an \"urban wind tunnel\"?",
+      "options": [
+        "A.The \"wind street wind\" formed by urban wind tunnels has little effect on the safety of buildings.",
+        "B.The wind comes from all directions, and the idea of \u200b\u200b\"urban wind channel\" is too subjective and arbitrary.",
+        "C.If there is a wind channel but no wind, it will make the city wind channel useless.",
+        "D.Urban air ducts are not only conducive to \"dispelling haze\", but also conducive to heat dissipation."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Some experts pointed out that the urban planning of Country Z lacks the necessary meteorological evidence, and the tall buildings in its cities are built high and dense, which hinders the cities' ventilation cycle. Relevant information shows that the average wind speed in many cities of Country Z has dropped by 10% in recent years. The decrease in wind speed means that the atmospheric diffusion capacity is weakened, which leads to a prolonged residence time of atmospheric pollutants, making it easy to form smog weather and the heat island effect. To this end, some experts put forward the idea of establishing an \"urban air duct\", that is, creating several unobstructed ventilation corridors in the city, so that wind can enter and exit more freely and promote the renewal cycle of urban air.\n\nWhich of the following, if true, most strongly supports the aforementioned idea of establishing an \"urban air duct\"?",
+      "options": [
+        "A. The \"corridor wind\" formed by urban air ducts has little effect on the safety of buildings.",
+        "B. Wind comes from all directions, so the idea of an \"urban air duct\" is too subjective and arbitrary.",
+        "C. If there is an air duct but no wind, the city's air duct will be useless.",
+        "D. Urban air ducts are not only conducive to dispelling smog, but also conducive to heat dissipation."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only the country/place references and minor wording were changed; the argument structure is identical. Option D still directly supports the idea by citing both benefits (smog removal and heat dissipation) tied to the stated problems, while A is tangential, B and C weaken, so the answer remains D."
+    }
+  },
+  {
+    "original": {
+      "question": "A good behavior must have both good motivation and good results.If you intentionally harm others, or unintentionally harm others, but the possibility of such harm is foreseeable, in both cases, the behavior that causes harm to others is evil.\n\nWhich of the following statements meets the determination of the subject?",
+      "options": [
+        "Mr.A.P wrote a letter trying to provoke the relationship between Mr.E and his girlfriend.P's behavior was evil, although the letter had a diametrically opposed effect.",
+        "B.In order to express himself in front of the new leader and compete for a promotion, Mr.J used his spare time to solve the backlog of medical claims.J \u2019s behavior was good, because Ms.S \u2019medical claims were promptly compensated.",
+        "C.On the way to work, Ms.M gave her breakfast hamburger to a beggar on the street.The beggar was accidentally choked to death because he was eager to swallow.Therefore, Ms.M inadvertently committed a malicious act.",
+        "D.After the heavy snow, Mr.T helped the neighbor to remove the snow in front of the door, but accidentally left ice on the steps.His neighbor fell.Therefore, a good behavior leads to a bad result."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A good behavior must have both good motivation and good results. If you intentionally harm others, or unintentionally harm others, but the possibility of such harm is foreseeable, in both cases, the behavior that causes harm to others is evil.\n\nWhich of the following statements meets the determination of the subject?",
+      "options": [
+        "A. Mr. Q wrote a letter trying to sabotage the relationship between Mr. R and his partner. Q's behavior was evil, although the letter had a diametrically opposed effect.",
+        "B. In order to impress the new director and compete for a promotion, Mr. K used his spare time to clear the backlog of warranty claims. K's behavior was good, because Ms. V's warranty claims were promptly settled.",
+        "C. On the way to work, Ms. N gave her breakfast sandwich to a stranger on the street. The stranger was accidentally choked to death because he was eager to swallow. Therefore, Ms. N inadvertently committed a malicious act.",
+        "D. After the heavy snow, Mr. W helped the neighbor clear the snow in front of the door, but accidentally left ice on the steps. His neighbor fell. Therefore, a good behavior leads to a bad result."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Only names and minor surface details (letter target, claim type, food item) changed; the logical structure is identical. Option A still features intentional harm (evil despite opposite effect), while B lacks good motivation, C involves unforeseeable harm, and D involves good intent with unintentional harm, so A remains correct."
+    }
+  },
+  {
+    "original": {
+      "question": "In the era of mobile Internet, people can read effective characters at any time, browse Internet shells, read e-books as digital reading, swipe Weibo, and circle of friends are also digital reading.For a long time, there have been concerns about the fragmentation and surfaceization of digital reading.However, some experts have recently stated that digital reading has important value and is the future development trend of reading.\n\nWhich of the following, if true, best supports the opinions of the above experts?",
+      "options": [
+        "A.There is a long usefulness, a short has short benefits, and it is not impossible to read a number without understanding it.Maybe at some point in the future, the information read at the beginning will emerge, which will have an impact on your own life.",
+        "B.At present, people are more and more using digital reading to understand hot information and communicate with each other through the network, but network communicators often disguise or anonymize and may provide false information.",
+        "C.Some online reading platforms can provide exquisite reading services.They not only help you choose books, but also help you read books.You need to \"listen\", but use the method of \"listening\" to read books, which is less efficient.",
+        "D.Digital reading is convenient for information screening.Readers can have a preliminary understanding of relevant information in a short time, and can also use this as a basis for in-depth understanding.Related online reading service platforms have become more and more in recent years."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "In the era of portable networked devices, people can read short text snippets at any time, browse web pages, read e-books as digital reading, scroll through microblog feeds, and check social update streams are also digital reading. For a long time, there have been concerns about the fragmentation and superficiality of digital reading. However, some specialists have recently stated that digital reading has important value and is the future development trend of reading.\n\nWhich of the following, if true, best supports the opinions of the above specialists?",
+      "options": [
+        "A.Something with a long-term use may bring only short-term benefits, and it is not impossible to read something without understanding it. Perhaps at some point in the future, the information read at the beginning will resurface, which will have an impact on your own life.",
+        "B.At present, people are more and more using digital reading to learn about trending information and communicate with each other through the network, but network communicators often disguise or anonymize themselves and may provide false information.",
+        "C.Some online reading platforms can provide refined reading services. They not only help you choose books, but also help you read books. You need to \"listen\", but using the method of \"listening\" to read books is less efficient.",
+        "D.Digital reading is convenient for information screening. Readers can gain a preliminary understanding of relevant information in a short time, and can also use this as a basis for in-depth understanding. Related online reading service platforms have become more and more numerous in recent years."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only surface wording (devices, platform names) changed; option D still directly supports digital reading's value by noting it enables screening and a basis for deeper understanding, while A, B, C remain irrelevant or undermining. Answer stays D."
+    }
+  },
+  {
+    "original": {
+      "question": "In spite of the outside world \u2019s talks about loosening monetary policy, the central bank of a country passed a clear message at the meeting of the governors of the branches that it held a few days ago.It will continue to implement a sound monetary policy in the second half of the year and maintain the necessary policy strength.Some scholars believe that this shows that the decision-makers in the country still regard price stability as their top priority, while controlling the decline in economic growth to an affordable range.\n\nWhich of the following can support the views of the above scholars?",
+      "options": [
+        "A.If the necessary policy strength is maintained, monetary policy cannot be relaxed.",
+        "B.Only by implementing a sound monetary policy can prices be stabilized.",
+        "C.Once the prudent monetary policy is implemented, the economic growth rate will decline.",
+        "D.Only by stabilizing prices can the decline in economic growth be controlled within a tolerable range."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Despite widespread talk elsewhere about easing financial policy, the central bank of the nation of Veldoria delivered a clear message at a meeting of its regional branch directors held a few days ago. It will continue to carry out a cautious financial policy in the second half of the year and maintain the necessary policy intensity. Some analysts believe this shows that Veldoria's decision-makers still treat price stability as their top priority, while keeping the slowdown in economic growth within an acceptable range.\n\nWhich of the following can support the views of the above analysts?",
+      "options": [
+        "A.If the necessary policy intensity is maintained, financial policy cannot be loosened.",
+        "B.Only by carrying out a cautious financial policy can prices be kept stable.",
+        "C.Once the careful financial policy is carried out, the economic growth rate will slow down.",
+        "D.Only by keeping prices stable can the slowdown in economic growth be held within an acceptable range."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only entity names and wording changed (country made fictional, 'monetary' to 'financial', 'sound' to 'cautious'); the logical structure and option slots are identical, so the correct answer remains B (cautious policy is a necessary condition for price stability, which supports the analysts' view that price stability is the priority)."
+    }
+  },
+  {
+    "original": {
+      "question": "Leading cadres should adopt an attitude of correcting and criticizing all kinds of criticisms, and create an atmosphere where the speaker is innocent and the listener is full of warning.Only in this way can people know everything and say nothing.Leading cadres can only achieve \"simultaneous listening\" and make scientific decisions only when they are admonishing and supporting the truth-tellers; only by being willing and good at listening to different opinions can they create a political atmosphere of integrity.\n\nBased on the above information, which of the following can be derived?",
+      "options": [
+        "A.Leading cadres must treat criticism well, follow the example, and support the truth-teller.",
+        "B.Most leading cadres can adopt the attitude of changing the criticism and encouraging the criticism.",
+        "C.Leading cadres cannot make scientific decisions unless they follow the advice.",
+        "D.Only by creating an atmosphere where the speaker is innocent and the listener is full of precepts can a political ecology be formed."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "Department managers should adopt an attitude of welcoming and reflecting on all kinds of feedback, and create an atmosphere where the person who speaks faces no blame and the person who listens stays alert and reflective. Only in this way can people say everything they know and hold nothing back. Department managers can achieve \"open hearing\" and make sound decisions only when they are encouraging and supporting those who speak honestly; only by being willing and skilled at listening to differing opinions can they create a workplace culture of integrity.\n\nBased on the above information, which of the following can be derived?",
+      "options": [
+        "A.Department managers must treat feedback well, follow precedent, and support those who speak honestly.",
+        "B.Most department managers can adopt an attitude of revising feedback and encouraging feedback.",
+        "C.Department managers cannot make sound decisions unless they heed the advice they receive.",
+        "D.Only by creating an atmosphere where the speaker faces no blame and the listener stays alert and reflective can a healthy workplace culture be formed."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only surface entities changed (leading cadres -> department managers, political ecology -> workplace culture); the conditional structure and the distractors are unchanged, so the correct answer remains C."
+    }
+  },
+  {
+    "original": {
+      "question": "In order to further strengthen law enforcement management of non-compliance with traffic signals and other illegal acts, standardize law enforcement procedures, and ensure law enforcement justice, a city's traffic police detachment requires that all traffic signal instructions are inconsistent, and evidence proves that it is necessary to seek help.Traffic violation information system; for traffic violation records that have been entered into the information system, it is necessary to improve the working standards for objection acceptance, verification, and handling to minimize law enforcement disputes.\n\nAccording to the requirements of the above traffic police detachment, which of the following can be derived?",
+      "options": [
+        "A.In some cases where it is illegal to ask for help, if there is only the party's speech but the lack of proof of audio and video recording at the time, it should be recorded in the road traffic violation information system.",
+        "B.For the traffic violation records that have been entered into the system, only by listening to the dissent of the masses and strengthening the supervision of the masses can law enforcement disputes be minimized.",
+        "C.If the car uses a driving recorder, it can provide real-time on-site evidence, greatly reducing the possibility of being entered into the road traffic violation information system.",
+        "D.Traffic violations caused by inconsistent traffic signals due to unreasonable signal phase setting and timing, etc., may not be recorded in the road traffic violation information system."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "In order to further strengthen law enforcement management of non-compliance with traffic signals and other illegal acts, standardize law enforcement procedures, and ensure law enforcement justice, the traffic police detachment of Riverton City requires that where traffic signal instructions are inconsistent, and evidence proves that this is the case, the matter must not be entered into the traffic violation information system; for traffic violation records that have already been entered into the information system, the working standards for objection acceptance, verification, and handling must be improved to minimize law enforcement disputes.\n\nAccording to the requirements of the above traffic police detachment, which of the following can be derived?",
+      "options": [
+        "A. In some cases where a driver claims a signal was inconsistent, if there is only the party's statement but no audio or video recording from the time as proof, it should be recorded in the road traffic violation information system.",
+        "B. For the traffic violation records that have been entered into the system, only by listening to the objections of the public and strengthening public supervision can law enforcement disputes be minimized.",
+        "C. If a vehicle is equipped with a dashboard camera, it can provide real-time on-site evidence, greatly reducing the possibility of being entered into the road traffic violation information system.",
+        "D. Traffic violations caused by inconsistent traffic signals due to unreasonable signal phase setting and timing, etc., may not be recorded in the road traffic violation information system."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only cosmetic changes (city name, 'help' garbled phrasing clarified to the evident rule that inconsistent-signal cases with proof are not entered into the system). The logical structure is unchanged: D follows directly from the rule; A, B, C add unsupported conditions or claims. The answer stays D."
+    }
+  },
+  {
+    "original": {
+      "question": "In 1995, married young couples between the ages of 25 and 30, the proportion of people living with their parents or parents-in-law accounted for 15% of the population in this age group, and in 2002, this proportion rose to 46% .Therefore, in 2002, married young couples in this age group were more difficult to assume independent living.\n\nThe conclusion above is based on which of the following assumptions?",
+      "options": [
+        "A.Young couples who cannot support themselves in this age group are more willing to live with their peers than with their parents.",
+        "B.As long as young couples of this age can live independently, they will not choose to live with their parents.",
+        "C.Although some young couples in this age group lived with their parents or parents-in-law during the survey, they lived independently until then.",
+        "D.From 1995 to 2002, the number of houses suitable for young couples to buy and rent is decreasing year by year."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "In 1998, among married young couples aged 25 to 30 in Town Marlow, the proportion living with their parents or parents-in-law was 15% of that age group, and in 2005, this proportion rose to 46%. Therefore, in 2005, married young couples in this age group in Town Marlow found it more difficult to live independently.\n\nThe conclusion above is based on which of the following assumptions?",
+      "options": [
+        "A.Young couples who cannot support themselves in this age group are more willing to live with their peers than with their parents.",
+        "B.As long as young couples of this age can live independently, they will not choose to live with their parents.",
+        "C.Although some young couples in this age group lived with their parents or parents-in-law during the survey, they had lived independently until then.",
+        "D.From 1998 to 2005, the number of houses suitable for young couples to buy and rent decreased year by year."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only the years and the location were changed. The argument still moves from a rise in the share living with parents to a rise in the difficulty of living independently. That step needs the assumption that couples who can live independently will not live with their parents, so B remains correct."
+    }
+  },
+  {
+    "original": {
+      "question": "Luye Kindergarten Parents Committee recommends that kindergartens reduce management fees by 5% to 10%.This recommendation is risky if implemented.Although parents can reduce the monthly childcare fee, the cost of coping with the problems caused by the decline in the quality of kindergarten services may be higher.\n\nWhich of the following is most likely the hypothesis of the above argument?",
+      "options": [
+        "A.There are many kindergartens whose management fees are too high.",
+        "B.There are many kindergartens whose management fees are not high.",
+        "C.The reduction in management fees is likely to lower the quality of services in kindergartens.",
+        "D.The management fee of Luye Kindergarten is originally lower than the average level of the same industry."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "The Hanyu Valley Parents Committee recommends that daycare centers reduce their administrative fees by 5% to 10%. This recommendation is risky if implemented. Although parents can reduce the monthly childcare fee, the cost of coping with the problems caused by the decline in the quality of daycare services may be higher.\n\nWhich of the following is most likely the assumption of the above argument?",
+      "options": [
+        "A. There are many daycare centers whose administrative fees are too high.",
+        "B. There are many daycare centers whose administrative fees are not high.",
+        "C. The reduction in administrative fees is likely to lower the quality of services in daycare centers.",
+        "D. The administrative fee of the Hanyu Valley daycare center is originally lower than the average level of the same industry."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only names and entities changed (kindergarten -> daycare center, committee name, management -> administrative fees). The argument's hidden assumption remains that fee reduction likely lowers service quality, which is option C in the same slot."
+    }
+  },
+  {
+    "original": {
+      "question": "The 2011 World University Games was held in Shenzhen, China, and athletes participated in the competition through selections from various countries.A project restricts each country to participate in up to two registrations.In this country, there are four outstanding athletes U, V, W, X willing to sign up.Through a fair, fair and open domestic competition, U and V were selected to participate in the World University Games.\n\nThe following statements do not match the title",
+      "options": [
+        "A.Athlete W outperformed athlete U in the trial, but U is the holder of the country's record for this sport.",
+        "B.Athlete X had the best performance in the selection competition, but the test for illegal drugs was positive after the competition.",
+        "C.Athlete W has created the best result in the country this season.",
+        "D.Athlete U was suspended for two years due to doping in 2008."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "The 2015 Regional Collegiate Games were held in the city of Brightport, Land Q, and athletes took part through selections made by the participating nations. One rule restricts each nation to at most two entries in a given event. In one nation, four outstanding athletes J, K, L, and M are willing to sign up. Through a fair, just, and open national trial, J and K were selected to compete in the Games.\n\nWhich of the following statements does not match the stem?",
+      "options": [
+        "A. Athlete L outperformed athlete J in the trial, but J is the holder of the nation's record in this sport.",
+        "B. Athlete M had the best performance in the selection trial, but tested positive for illegal drugs after the competition.",
+        "C. Athlete L has achieved the best result in the nation this season.",
+        "D. Athlete J was suspended for two years in 2012 due to doping."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Only names, place, event, and year changed. Option A still contradicts a fair, open selection: a lower-performing athlete (J) is chosen over a better-performing one (L) based on an irrelevant record. Options B and D give grounds for exclusion or are otherwise compatible, and C is compatible with the stem. Answer remains A."
+    }
+  },
+  {
+    "original": {
+      "question": "I am not at the crime scene.If I am, then, I have not sinned.If I committed a crime, then it must be my unconsciousness.\n\nWhich of the following is most similar to the above argument?",
+      "options": [
+        "A.I only eat chicken or fish or duck.If I do n\u2019t eat chicken, then I must eat fish or duck.If I do n\u2019t eat duck, then I must eat fish.",
+        "B.I never lie.If I lie, then I must be forced.If I am forced to lie, then the responsibility is not on me.",
+        "C.I didn't borrow your book.If I borrowed it, I would not break the book.If I broke the book, it was because I was not careful.",
+        "D.She completed her homework on time every day.If she did not complete her homework, then she would not sleep.If she sleeps, it must be her homework."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "I was not at the lab last night. If I was, then I did not touch the equipment. If I damaged the equipment, then it must have been an accident I was unaware of.\n\nWhich of the following is most similar to the above argument?",
+      "options": [
+        "A. I only drink tea or coffee or juice. If I do not drink tea, then I must drink coffee or juice. If I do not drink juice, then I must drink coffee.",
+        "B. I never cheat. If I cheat, then I must have been pressured. If I am pressured to cheat, then the responsibility is not on me.",
+        "C. I did not borrow your umbrella. If I borrowed it, I did not lose it. If I lost it, it was because I was not paying attention.",
+        "D. He finished his chores on time every day. If he did not finish his chores, then he would not rest. If he rests, it must be because of his chores."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only surface details changed (crime scene -> lab, book -> umbrella, etc.). The structure is preserved: denial of presence/action, conditional that even if it happened the bad outcome did not occur, then a final conditional attributing the bad outcome to a lack of awareness/care. Option C still matches this slot; the other options keep their original distinct structures."
+    }
+  },
+  {
+    "original": {
+      "question": "A province vigorously develops the tourism industry.At present, it has formed three famous scenic spots in East Lake, West Island and Nanshan.Each scenic spot has three routes? two-day tour, three-day tour and four-day tour.Li Ming, Wang Gang and Zhang Bo plan to go to the above three places for a 9-day tour, and everyone has designed their own travel plans.It was later discovered that the three of them chose different routes for each attraction? Li Ming's planned days to East Lake were the same as Wang Gang's planned days to West Island, Li Ming's plan to Nanshan was a three-day trip, and Wang Gang's plan to Nanshan was Four-day tour.\n\nBased on the above statement, which of the following can be derived?",
+      "options": [
+        "A.Li Ming plans a two-day tour of East Lake, and Wang Gang plans a two-day tour of West Island.",
+        "B.Wang Gang plans a three-day tour of East Lake and Zhang Bo plans a four-day tour of West Island.",
+        "C.Zhang Bo plans a four-day tour of East Lake, and Wang Gang plans a three-day tour of West Island.",
+        "D.Zhang Bo planned a three-day tour of East Lake and Li Ming planned a four-day tour of West Island."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A region vigorously develops its tourism industry. At present, it has formed three famous scenic spots: Silver Lake, Cedar Island and Mount Harlow. Each scenic spot offers three routes: a two-day tour, a three-day tour and a four-day tour. Arlen Voss, Bram Keller and Corin Ashe plan to visit all three places for a 9-day tour, and each has designed a personal travel plan. It was later discovered that the three of them chose different routes for each attraction. Arlen's planned number of days at Silver Lake was the same as Bram's planned number of days at Cedar Island. Arlen's plan for Mount Harlow was a three-day trip, and Bram's plan for Mount Harlow was a four-day tour.\n\nBased on the above statement, which of the following can be derived?",
+      "options": [
+        "A.Arlen plans a two-day tour of Silver Lake, and Bram plans a two-day tour of Cedar Island.",
+        "B.Bram plans a three-day tour of Silver Lake and Corin plans a four-day tour of Cedar Island.",
+        "C.Corin plans a four-day tour of Silver Lake, and Bram plans a three-day tour of Cedar Island.",
+        "D.Corin plans a three-day tour of Silver Lake and Arlen plans a four-day tour of Cedar Island."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Logic unchanged. Corin has 2 days at Mount Harlow. Arlen's Silver Lake and Cedar Island days sum to 6, and Bram's sum to 5. This forces Bram at Cedar Island = 2 and Arlen at Silver Lake = 2, with Bram at Silver Lake = 3, Arlen at Cedar Island = 4, and Corin = 4, 3, 2. Only option A follows."
+    }
+  },
+  {
+    "original": {
+      "question": "An ocean-going sailing ship carrying five Chinese and several foreigners drove from China to Europe.On the way, all but 5 Chinese people suffered from sepsis.In the same boat, it is the same as a meal, sleeping in the ocean and crossing the ocean.Why are Chinese and foreigners so different? It turns out that these 5 Chinese people all have the habit of drinking tea, but foreigners do not.So it was concluded that drinking tea is the reason why these five Chinese did not have sepsis.\n\nWhich of the following is most similar to the method of drawing conclusions in the question stem?",
+      "options": [
+        "A.The police have locked the suspect, but from the facts currently available, it is not enough to prove that he committed a crime.The task force concluded from this that there must be an unknown factor lurking behind the suspect.",
+        "B.On two wheat fields with basically the same condition, apply nitrogen fertilizer and potash fertilizer to one of them, and only apply potassium fertilizer to the other.As a result, the yield of the field with nitrogen fertilizer and potassium fertilizer was much higher than that of the other field.It can be seen that nitrogen fertilizer is the reason for the higher yield of wheat field.",
+        "C.Sun Wukong? \"If you hit the bones, the master will read the curse.If you don't, the master will be eaten by the goblin.\" Sun Wukong can't help but conclude? \"I still have to go back to Huaguoshan.\"",
+        "D.Astronomers observed that the orbit of Uranus has characteristics a, b, and c.It is known that the characteristics a and b are caused by the attraction of two planets A and B, respectively, so it is guessed that there is an unknown planet that causes the orbital characteristics of Uranus.c."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "A large ocean-going sailing ship carrying five Harbor Guild sailors and several visiting traders traveled from Port Alder to Port Merrow. On the way, everyone except the 5 Harbor Guild sailors suffered from a wasting illness. On the same ship, they all ate the same meals, slept in the same quarters, and crossed the same ocean. Why were the Harbor Guild sailors and the traders so different? It turned out that these 5 Harbor Guild sailors all had the habit of drinking nettle infusion, but the traders did not. So it was concluded that drinking nettle infusion is the reason why these five sailors did not get the wasting illness.\n\nWhich of the following is most similar to the method of drawing conclusions in the question stem?",
+      "options": [
+        "A. The investigators have identified the suspect, but from the facts currently available, it is not enough to prove that he committed a crime. The task force concluded from this that there must be an unknown factor lurking behind the suspect.",
+        "B. Two orchards with basically the same conditions are treated differently: one receives both lime fertilizer and bone-meal fertilizer, and the other receives only bone-meal fertilizer. As a result, the yield of the orchard with both fertilizers was much higher than that of the other orchard. It can be seen that lime fertilizer is the reason for the higher yield of the orchard.",
+        "C. The traveler Marro was told: \"If you strike the stone, the old guide will recite the warning. If you don't, the old guide will be eaten by the forest beast.\" Marro could not help but conclude: \"I still have to go back to Hillhome.\"",
+        "D. Astronomers observed that the orbit of the planet Velor has features a, b, and c. It is known that features a and b are caused by the attraction of two planets, A and B, respectively, so it is guessed that there is an unknown planet that causes orbital feature c of Velor."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only names, places, and cultural details were changed. The argument is still the method of difference: two groups alike in all respects except one factor, the differing outcome is attributed to that factor. Option B still matches this, so the answer remains B."
+    }
+  },
+  {
+    "original": {
+      "question": "Gongda Law Firm is known for its effective defense of defendants in criminal cases, with a success rate of over 90%.Lao Yu is a lawyer who is famous for successfully defending clients in divorce cases.Therefore, Lao Yu cannot be a member of Gongda Law Firm.\n\nWhich of the following most accurately points out the loophole of the above argument?",
+      "options": [
+        "A.The characteristics of Gongda Law Firm may not necessarily be its members.",
+        "B.There is no precise indication of the success rate of Lao Yu's defense of the parties to the divorce case.",
+        "C.There is no precise indication of Lao Yu's success rate in defending the criminal case.",
+        "D.There is no source for the statistics of Gongda Law Firm."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "Harborview Legal Group is known for its effective defense of defendants in criminal cases, with a success rate of over 90%. Mr. Tamsin is a lawyer who is famous for successfully defending clients in divorce cases. Therefore, Mr. Tamsin cannot be a member of Harborview Legal Group.\n\nWhich of the following most accurately points out the loophole of the above argument?",
+      "options": [
+        "A.The characteristics of Harborview Legal Group may not necessarily be characteristics of its individual members.",
+        "B.There is no precise indication of the success rate of Mr. Tamsin's defense of the parties in divorce cases.",
+        "C.There is no precise indication of Mr. Tamsin's success rate in defending criminal cases.",
+        "D.There is no source given for the statistics of Harborview Legal Group."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Only names were changed (firm and lawyer). The argument still infers an individual member's traits from a group's collective trait (a division fallacy), so option A remains the correct answer."
+    }
+  },
+  {
+    "original": {
+      "question": "A sociologist believes that every enterprise strives to reduce production costs.In order to increase the profits of the enterprise, not all efforts to reduce production costs are beneficial to the enterprise.If some enterprises reduce the purchase of social insurance for employees, they can temporarily reduce production costs, but in the long run it is not worth the loss, which will benefit the employees.Cause damage, reduce the sense of belonging of employees, and affect the production efficiency of enterprises.\n\nWhich of the following most accurately represents the conclusion stated by the above sociologist?",
+      "options": [
+        "A.If a measure can increase the profit of the enterprise, but not the welfare of the employees, this measure is not worth advocating.",
+        "B.Some measures taken by enterprises to reduce costs are not always beneficial to the development of enterprises.",
+        "C.Only when the interests of employees and entrepreneurs are the same, the measures taken by the enterprise are beneficial to the development of the enterprise.",
+        "D.The enterprise's efforts to reduce production costs need to be comprehensively considered from the perspective of the enterprise's overall interests."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "An economist believes that every firm strives to reduce operating costs. In order to increase the firm's profits, not all efforts to reduce operating costs are beneficial to the firm. If some firms cut back on purchasing safety training for their workers, they can temporarily reduce operating costs, but in the long run it is not worth the loss, since this will cause damage to the workers, reduce the workers' sense of loyalty, and affect the firm's production efficiency.\n\nWhich of the following most accurately represents the conclusion stated by the above economist?",
+      "options": [
+        "A.If a measure can increase the profit of the firm, but not the welfare of the workers, this measure is not worth advocating.",
+        "B.Some measures taken by firms to reduce costs are not always beneficial to the development of the firms.",
+        "C.Only when the interests of workers and owners are the same, the measures taken by the firm are beneficial to the development of the firm.",
+        "D.The firm's efforts to reduce operating costs need to be comprehensively considered from the perspective of the firm's overall interests."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only surface entities changed (sociologist->economist, enterprise->firm, social insurance->safety training, employees->workers); the argument structure is identical, and the conclusion that some cost-reduction measures are not beneficial to the firm remains option B."
+    }
+  },
+  {
+    "original": {
+      "question": "If Xiao Wang was admitted as a doctor and Xiao Liu was not admitted as a doctor, then Wen Li must not be admitted as a doctor.\n\nIf the above proposition is true, plus any premises, it can be introduced? Xiao Liu was admitted to the doctor.",
+      "options": [
+        "A.Xiao Wang and Wen Li were admitted to the doctorate together.",
+        "B.Neither Xiao Wang nor Xiao Liu was admitted to the doctorate.",
+        "C.Xiao Wang was admitted to the doctorate while Xiao Liu was not admitted to the doctorate.",
+        "D.Xiao Wang did not get a Ph.D.and Xiao Liu got a Ph.D."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "If Mira Tan was admitted as a doctoral student and Odo Reyes was not admitted as a doctoral student, then Nell Park must not be admitted as a doctoral student.\n\nIf the above proposition is true, which of the following premises, when added, allows us to conclude that Odo Reyes was admitted as a doctoral student?",
+      "options": [
+        "A.Mira Tan and Nell Park were admitted to the doctorate together.",
+        "B.Neither Mira Tan nor Odo Reyes was admitted to the doctorate.",
+        "C.Mira Tan was admitted to the doctorate while Odo Reyes was not admitted to the doctorate.",
+        "D.Mira Tan was not admitted to the doctorate and Odo Reyes was admitted to the doctorate."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Logic unchanged: (W \u2227 \u00acL) \u2192 \u00acM. Adding W \u2227 M gives, by contraposition, \u00ac(W \u2227 \u00acL). Since W is true, L must be true. Option A is still the only premise that yields the conclusion. The names are replaced consistently (Wang\u2192Tan, Liu\u2192Reyes, Wen Li\u2192Park), and the garbled question stem is cleaned up to state the intended conclusion."
+    }
+  },
+  {
+    "original": {
+      "question": "Which of the following is true and most weakens the above argument?\n\nIt is generally believed that when a professional athlete is 45 years old, his athletic level and endurance are significantly lower than he was 30 years old, but the result of a marathon held between retired and active professional football players is? 45 There is no difference in the performance of a retired football player who is 30 years old and a 30-year-old player who is in service.Based on this, it is wrong to think that a professional player's athletic level and endurance will be significantly reduced by the age of 45.",
+      "options": [
+        "A.Marathon does not fully reflect the endurance and sports level of football players",
+        "B.Retired professional players have more time to exercise",
+        "C.Many active professional players have serious injuries",
+        "D.Retired players do not hesitate to risk exceeding their physical fitness in the game in order to prove their strength"
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Which of the following is true and most weakens the above argument?\n\nIt is generally believed that when a professional athlete is 45 years old, his athletic level and endurance are significantly lower than they were at 30 years old. However, the result of a marathon held between retired and active professional volleyball players shows that there is no difference in performance between a retired volleyball player who is 45 years old and an active player who is 30 years old. Based on this, it is wrong to think that a professional player's athletic level and endurance will be significantly reduced by the age of 45.",
+      "options": [
+        "A.Marathon does not fully reflect the endurance and sports level of volleyball players",
+        "B.Retired professional players have more time to exercise",
+        "C.Many active professional players have serious injuries",
+        "D.Retired players do not hesitate to risk exceeding their physical fitness in the race in order to prove their strength"
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only the sport (football to volleyball) was changed and the garbled phrasing was cleaned up. The argument structure is the same (equal marathon results lead to the conclusion that there is no age decline). Option D still weakens it by offering an alternative explanation for the equal results: retirees overexert themselves, so the equal results do not show equal ability. The answer is unchanged."
+    }
+  },
+  {
+    "original": {
+      "question": "Zhang Shan has the concepts of legality and illegality, but there is no concept of moral right and wrong.She was prosecuted for one of her actions.Although he admitted that his behavior was illegal, he did not know that this behavior was actually unethical.\n\nThe appeal concluded that which of the following conclusions could be properly concluded?",
+      "options": [
+        "A.Zhang Shan did something illegal.",
+        "B.Zhang Shan did something immoral.",
+        "C.Zhang Shan is a law graduate.",
+        "D.For the law, moral ignorance cannot be an excuse."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "Li Wen has the concepts of legality and illegality, but has no concept of moral right and wrong. She was prosecuted for one of her actions. Although she admitted that her behavior was illegal, she did not know that this behavior was actually unethical.\n\nWhich of the following conclusions can properly be drawn from the above?",
+      "options": [
+        "A. Li Wen did something illegal.",
+        "B. Li Wen did something immoral.",
+        "C. Li Wen is a law graduate.",
+        "D. For the law, moral ignorance cannot be an excuse."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only the character name was changed (Zhang Shan to Li Wen) and pronouns made consistent; the premises, options, and logical structure are identical, so the correct answer remains B."
+    }
+  },
+  {
+    "original": {
+      "question": "A survey of Xiaotang Village in the western mountainous area found that about three-fifths of the children in Xiaotang Village had moderate or nearsightedness after entering middle school, and their parents and grandparents did not have the opportunity to go to regular schools for education Myopia is rare.\n\nWhich of the following is the most appropriate conclusion for the above determination?",
+      "options": [
+        "A.Receiving cultural education is the cause of myopia.",
+        "B.Only formal education in childhood can easily become short-sighted.",
+        "C.The visual pressure caused by reading and classroom work will inevitably cause children's myopia.",
+        "D.The development of cultural education is closely related to the appearance of myopia."
+      ],
+      "gt_answer": "A"
+    },
+    "perturbed": {
+      "question": "A survey of Lanwick Hollow, a village in a remote highland region, found that about three-fifths of the children in Lanwick Hollow had moderate or severe nearsightedness after entering middle school, while their parents and grandparents, who never had the opportunity to attend regular schools, rarely had myopia.\n\nWhich of the following is the most appropriate conclusion to draw from the above finding?",
+      "options": [
+        "A.Receiving cultural education is the cause of myopia.",
+        "B.Only formal education in childhood can easily lead to nearsightedness.",
+        "C.The visual strain caused by reading and classroom work will inevitably cause myopia in children.",
+        "D.The spread of cultural education is closely related to the appearance of myopia."
+      ],
+      "gt_answer": "A",
+      "verification_note": "Only the village name and minor wording were changed; the argument (myopia common among schooled children, rare among unschooled older generations) and the option structure are identical, so the correct answer slot remains A as in the original."
+    }
+  },
+  {
+    "original": {
+      "question": "A foreign professor recently pointed out that a person with a baby face means that he will enjoy a longer lifespan, because people's living conditions are easily reflected on his face.Beginning in the spring of 1990, a research team led by the professor conducted physical and cognitive tests on 1826 twins over 70 years old and took photographs of their faces.Without knowing their exact ages, the three research assistants first evaluated the age of twins in different age groups, and found that even the twins, the guessed ages differed greatly.Then, the research team spent several years following up on the twins' later life until they died.The survey shows that the greater the difference in appearance age among the twins, the more likely the older one will die first.\n\nWhich of the following, if true, can best form a rebuttal to the professor \u2019s conclusion?",
+      "options": [
+        "A.If you expand the survey to twins over 40, the results may be different.",
+        "B.The three research assistants are relatively young, and they haven't been engaged in the research for a long time.",
+        "C.Appearance age is a concentrated expression of everyone's living environment, living conditions and mentality, and has little to do with life aging.",
+        "D.The reason of life aging is that the cell division leads to the continuous loss of chromosome ends."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "A visiting scholar recently claimed that a person with a youthful face will enjoy a longer lifespan, because people's living conditions are easily reflected on their faces. Beginning in the autumn of 2004, a research team led by the scholar conducted physical and cognitive tests on 1826 pairs of siblings who were over 70 years old and took photographs of their faces. Without knowing their exact ages, three research assistants first estimated the ages of the siblings in different age groups, and found that even among siblings of the same age, the estimated ages differed greatly. Then, the research team spent several years following up on the siblings' later lives until they died. The survey shows that the greater the difference in apparent age between the siblings, the more likely the one who looked older would die first.\n\nWhich of the following, if true, can best rebut the scholar's conclusion?",
+      "options": [
+        "A.If the survey were expanded to siblings over 40, the results might be different.",
+        "B.The three research assistants are relatively young, and they have not been engaged in this kind of research for long.",
+        "C.Apparent age is a concentrated expression of a person's living environment, living conditions and mentality, and has little to do with biological aging.",
+        "D.The cause of biological aging is that cell division leads to the continuous loss of the ends of chromosomes."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only surface details changed (professor\u2192scholar, twins\u2192siblings, dates). The argument structure is identical: apparent age difference predicts earlier death, concluding youthful look means longer life. Option C still severs the link between appearance and biological aging, so it remains the best rebuttal."
+    }
+  },
+  {
+    "original": {
+      "question": "Recent research shows that long-term close contact with parrots increases the risk of lung cancer.However, because of this danger, no one would advocate that the government restrict or reduce the contact between people and parrots by imposing a security tax on parrot owners.Therefore, for the same reason, the government should abolish the safety tax imposed on dangerous games such as skiing, cars, motorcycles and competitive parachutes.\n\nWhich of the following does not fit the meaning of the question?",
+      "options": [
+        "A.The government should levy special taxes on some luxury fitness and beauty facilities to supplement education.",
+        "B.The government should not promote, but should not prohibit, the news media from hype about dangerous activities like speeding across the Yellow River.",
+        "C.The government should use high-tech means to improve the safety of competitive games.",
+        "D.The government should try to increase the cost to reduce people's participation in dangerous competitive entertainment activities."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Recent research shows that long-term close contact with ferrets increases the risk of kidney disease. However, because of this danger, no one would advocate that the government restrict or reduce the contact between people and ferrets by imposing a security tax on ferret owners. Therefore, for the same reason, the government should abolish the safety tax imposed on dangerous games such as rock climbing, cars, scooters and competitive gliding.\n\nWhich of the following does not fit the meaning of the question?",
+      "options": [
+        "A.The government should levy special taxes on some luxury relaxation and grooming facilities to supplement education.",
+        "B.The government should not promote, but should not prohibit, the news media from hype about dangerous activities like swimming across the Larkmoor Strait.",
+        "C.The government should use high-tech means to improve the safety of competitive games.",
+        "D.The government should try to increase the cost to reduce people's participation in dangerous competitive entertainment activities."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only surface entities were swapped (parrots->ferrets, lung cancer->kidney disease, specific sports and river replaced with generic/fictional equivalents). The argument structure is unchanged, so option D, which contradicts the passage's stance against using cost to deter participation, remains the correct answer."
+    }
+  },
+  {
+    "original": {
+      "question": "According to the survey statistics of an international expert, some countries want to form alliances with certain countries, and more than three countries do not want to form alliances with certain countries; at least two countries want to establish diplomatic relations with each country.The country does not want to ally with any country.\n\nBased on the above statistics, which of the following can be derived?",
+      "options": [
+        "A.Some countries want to establish diplomatic relations but do not want to form alliances.",
+        "B.There is at least one country where both countries want to form an alliance with them and some countries do not want to form an alliance with it.",
+        "C.Every country has some countries that want to form an alliance with it.",
+        "D.Each country has some countries that wish to establish diplomatic relations with it."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "According to the survey statistics of a regional analyst, some guilds want to form partnerships with certain guilds, and more than three guilds do not want to form partnerships with certain guilds; at least two guilds want to establish trade relations with each guild. The guild does not want to partner with any guild.\n\nBased on the above statistics, which of the following can be derived?",
+      "options": [
+        "A.Some guilds want to establish trade relations but do not want to form partnerships.",
+        "B.There is at least one guild where both guilds want to form a partnership with them and some guilds do not want to form a partnership with it.",
+        "C.Every guild has some guilds that want to form a partnership with it.",
+        "D.Each guild has some guilds that wish to establish trade relations with it."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only the entities changed (countries to guilds, alliances to partnerships, diplomatic relations to trade relations, expert to analyst). The statements and the logical slots of the options are unchanged. The 'at least two want relations with each' premise still directly supports D, so the answer stays D."
+    }
+  },
+  {
+    "original": {
+      "question": "Zhao Mo is an excellent entrepreneur.Because if a person has both the experience of working in well-known universities and research institutions at home and abroad, and the management experience of being the project leader, then he is an excellent entrepreneur.\n\nWhich of the following is most similar to the above argument?",
+      "options": [
+        "A.Human resources are the core resources of an enterprise.Because if we do not carry out various cultural activities, we can not improve employees' job skills, nor can they increase team cohesion and combat effectiveness.",
+        "B.Yuan Qing is a good writer.Because good writers have strong observation ability, imagination ability and expression ability.",
+        "C.Youth is the future of enterprise development.Therefore, only by inspiring the youth's youth power can the enterprise promote its early success.",
+        "D.Fengyun enterprises are cohesive.Because if an enterprise can guide and help employees set goals and improve capabilities, it can make the enterprise cohesive."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Lin Tavo is an excellent architect. Because if a person has both the experience of working in well-known design institutes and construction firms at home and abroad, and the management experience of being the chief project supervisor, then he is an excellent architect.\n\nWhich of the following is most similar to the above argument?",
+      "options": [
+        "A.Skilled labor is the core resource of a workshop. Because if we do not organize various training sessions, we can not improve workers' technical skills, nor can they increase team cohesion and productivity.",
+        "B.Marel Dunn is a good painter. Because good painters have strong observation ability, imagination ability and color-mixing ability.",
+        "C.Apprentices are the future of the workshop's development. Therefore, only by inspiring the apprentices' enthusiasm can the workshop achieve its early success.",
+        "D.Brightvale Company is cohesive. Because if a company can guide and help its staff set goals and improve their abilities, it can make the company cohesive."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only names, professions and settings were changed. The original argument is a conclusion about a specific entity justified by a sufficient-condition conditional (if X has features, then X is Y), and option D still matches it. Options A-C keep their original structures (necessary-condition, property-list, only-if), so the answer remains D."
+    }
+  },
+  {
+    "original": {
+      "question": "years ago, cancer patients survived an average of 5.4 years after the discovery of the disease, and now it has reached 6.7 years.This shows that the improvement of medical level has prolonged the survival time of cancer patients.\n\nThe above conclusion depends on which of the following assumptions?",
+      "options": [
+        "A.The number of patients who received treatment 10 years ago is similar to the current one.",
+        "B.There were not as many people who bought medical insurance 10 years ago as they are now.",
+        "C.The level of cancer diagnosis technology 10 years ago was close to that of the present.",
+        "D.There has been no change in the occupational types of cancer patients in the past 10 years."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "Some years ago, patients with Disease Z survived an average of 5.4 years after the disease was first detected, and now the average has reached 6.7 years. This shows that improvements in the quality of medical care have prolonged the survival time of Disease Z patients.\n\nThe above conclusion depends on which of the following assumptions?",
+      "options": [
+        "A.The number of patients who received treatment 10 years ago is similar to the number receiving treatment now.",
+        "B.Fewer people held health coverage plans 10 years ago than do now.",
+        "C.The level of diagnostic technology for Disease Z 10 years ago was close to that of the present.",
+        "D.There has been no change in the types of jobs held by Disease Z patients over the past 10 years."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only the disease name and wording were changed; the argument (survival time measured from detection, so earlier detection could inflate the figure unless diagnostic technology was comparable) is intact, so C remains the necessary assumption."
+    }
+  },
+  {
+    "original": {
+      "question": "The logic teacher forms part of the students in the logic class into a learning group.The average score of the members of the learning group is much higher than that of the students who did not participate in the learning group.\n\nWhich of the following assumptions is the above reasoning based on?",
+      "options": [
+        "A.It is difficult for students to learn logic.",
+        "B.The students who participated in the study group are more likely to get the teacher's favor than those who did not.",
+        "C.Participation in the study group did not affect the performance of other courses.",
+        "D.Studying in a study group is the same as the starting point for students who are not in a study group."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "The statistics instructor selects some of the students in the statistics class and organizes them into a discussion circle. The average test score of the members of the discussion circle is much higher than the average score of the students who did not join the discussion circle.\n\nWhich of the following assumptions is the above reasoning based on?",
+      "options": [
+        "A.It is difficult for students to learn statistics.",
+        "B.The students who joined the discussion circle are more likely to win the instructor's favor than those who did not.",
+        "C.Joining the discussion circle did not affect performance in other courses.",
+        "D.The students in the discussion circle had the same starting level as the students who were not in the discussion circle."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Only the subject (logic to statistics) and group label (learning group to discussion circle) were changed. The argument is still a comparison of group averages that concludes the group helped, so it assumes equal starting levels. The correct answer remains D."
+    }
+  },
+  {
+    "original": {
+      "question": "A city has opened and operated the No.1, No.2, No.3 and No.4 subway lines, and the time required for each subway line to run and stop at each station is the same as each other.Xiao Zhang, Xiao Wang, and Xiao Li are employees of the same unit, and Beikou Metro Station is nearby.One morning, three people took the No.1 line service at Changqing Station at the same time, but the three people had different ideas about the route.Known? (1) If Line 1 is crowded, Xiao Zhang will take 2 stops and then transfer to Line 3, and then 3 stops to Beikou Station; if Line 1 is not crowded, Xiao Zhang will take 3 stops and then transfer to Line 2, then Take 4 stops to Beikou Station.(2) Only when Line 1 is crowded, Xiao Wang takes 2 stops, then transfers to Line 3, and then takes 3 stops to Beikou Station.(3) If Line 1 is not crowded, Xiao Li takes 4 stops and then transfers to Line 4, after 3 stops, then transfers to Line 3, and takes 1 stop to reach Beikou Station.(4) Metro Line 1 was not crowded that morning.\n\nAssuming that the total time for three people to transfer and walk is the same, which of the following is most likely to be inconsistent with the above information?",
+      "options": [
+        "A.Xiao Wang and Xiao Li arrive at the unit at the same time.",
+        "B.Xiao Zhang and Xiao Wang arrive at the unit at the same time.",
+        "C.Xiao Wang arrived at the unit before Xiao Li.",
+        "D.Xiao Li arrived at the unit before Xiao Zhang."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "A city has opened and operated Line 1, Line 2, Line 3 and Line 4 of its subway, and the time required for each line to run and stop at each station is the same across all lines. Arden, Brill, and Corin are employees of the same company, and Northgate Metro Station is near their workplace. One morning, the three of them boarded a Line 1 train at Eastvale Station at the same time, but each had a different idea about which route to take. The following is known: (1) If Line 1 is crowded, Arden will ride 2 stops and then transfer to Line 3, then ride 3 stops to Northgate Station; if Line 1 is not crowded, Arden will ride 3 stops and then transfer to Line 2, then ride 4 stops to Northgate Station. (2) Only when Line 1 is crowded does Brill ride 2 stops, then transfer to Line 3, and then ride 3 stops to Northgate Station. (3) If Line 1 is not crowded, Corin rides 4 stops and then transfers to Line 4, rides 3 stops, then transfers to Line 3 and rides 1 stop to reach Northgate Station. (4) Line 1 was not crowded that morning.\n\nAssuming that the total time the three people spend transferring and walking is the same, which of the following is most likely to be inconsistent with the above information?",
+      "options": [
+        "A. Brill and Corin arrive at the company at the same time.",
+        "B. Arden and Brill arrive at the company at the same time.",
+        "C. Brill arrived at the company before Corin.",
+        "D. Corin arrived at the company before Arden."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Logic unchanged: Line 1 is not crowded, so Arden rides 3+4=7 stops and Corin rides 4+3+1=8 stops; Brill's route is not the crowded-line route, so his time is unconstrained. Corin arriving before Arden contradicts the given information, so D remains correct."
+    }
+  },
+  {
+    "original": {
+      "question": "If you pour a glass of wine into a barrel of sewage, you get a barrel of sewage; if a glass of sewage is poured into a barrel of wine, you still get a barrel of sewage.In any organization, there may be several difficult characters, and their purpose seems to be to mess things up.If an organization does not strengthen internal management, an honest and competent person will be engulfed in an inefficient department.And an unscrupulous and talented person can quickly turn an efficient department into a mess.\n\nBased on the above information, which of the following can be derived?",
+      "options": [
+        "A.If there are several difficult people in the organization, the organization will soon become a mess.",
+        "B.If you do not pour a glass of sewage into a barrel of wine, you will not get a barrel of sewage.",
+        "C.If an upright person is not engulfed in an inefficient department, the department strengthens internal management.",
+        "D.If an upright person enters the organization, it will make the organization more efficient."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "If you pour a bucket of fresh milk into a tank of motor oil, you get a tank of motor oil; if a bucket of motor oil is poured into a tank of fresh milk, you still get a tank of motor oil. In any company, there may be several troublesome characters, and their purpose seems to be to disrupt things. If a company does not strengthen internal management, a conscientious and capable person will be swallowed up by a dysfunctional division. And a dishonest but gifted person can quickly turn a high-performing division into a shambles.\n\nBased on the above information, which of the following can be derived?",
+      "options": [
+        "A.If there are several troublesome people in the company, the company will soon become a shambles.",
+        "B.If you do not pour a bucket of motor oil into a tank of fresh milk, you will not get a tank of motor oil.",
+        "C.If a conscientious person is not swallowed up by a dysfunctional division, the company strengthens internal management.",
+        "D.If a conscientious person joins the company, it will make the company more efficient."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Only surface entities changed (wine/sewage -> milk/motor oil, organization -> company, department -> division). Key conditional 'if no strengthened management, then honest person swallowed' has contrapositive matching option C, so answer remains C."
+    }
+  },
+  {
+    "original": {
+      "question": "Zhao Yuan \u2019s colleagues are all fans.Zhao Yuan \u2019s classmates who work in the software park are not fans.Li Ya is both Zhao Yuan \u2019s classmate and his colleague.Wang Wei is Zhao Yuan \u2019s classmate but does not work in the software park.Zhang Ming It was Zhao Yuan \u2019s classmate but not a fan.\n\nBased on the above statement, which of the following can be derived?",
+      "options": [
+        "A.Wang Wei is a fan.",
+        "B.Zhao Yuan is not a fan.",
+        "C.Li Ya does not work in the software park.",
+        "D.Zhang Ming works in the software park."
+      ],
+      "gt_answer": "C"
+    },
+    "perturbed": {
+      "question": "All of Daren Holt's colleagues are club members. Daren Holt's classmates who work at the Harbor Tech Campus are not club members. Mira Vale is both Daren Holt's classmate and his colleague. Teo Marsh is Daren Holt's classmate but does not work at the Harbor Tech Campus. Sol Ketter is Daren Holt's classmate but not a club member.\n\nBased on the above statements, which of the following can be derived?",
+      "options": [
+        "A. Teo Marsh is a club member.",
+        "B. Daren Holt is not a club member.",
+        "C. Mira Vale does not work at the Harbor Tech Campus.",
+        "D. Sol Ketter works at the Harbor Tech Campus."
+      ],
+      "gt_answer": "C",
+      "verification_note": "Same structure as the original. Mira Vale is a colleague, so she is a club member. Classmates who work at the campus are not members, so she cannot work there, which makes C correct. A, B and D do not follow: Teo Marsh's membership is undetermined, Daren Holt's status is not addressed, and Sol Ketter being a non-member does not show he works at the campus."
+    }
+  },
+  {
+    "original": {
+      "question": "A group company has four departments, which produce refrigerators, color TVs, computers and mobile phones.According to the statistics of the first three quarters, the four department managers made the following predictions on the profitability of the whole year of 2010? 1.Refrigerator department manager? The mobile phone department will make a profit this year.2.Manager of the color TV department? If the refrigerator department makes a profit this year, the color TV department will not make a profit.3.Computer department manager? If the mobile phone department is not profitable this year, then the computer department is not profitable.4.Manager of mobile phone department? Both the refrigerator and color TV departments will make a profit this year.After the statistics for the whole year were completed, only one of the above four predictions was found to be in line with the facts.\n\nRegarding the profitability of the company's departments for the whole year, which of the following may be true?",
+      "options": [
+        "A.The TV department is profitable, but the refrigerator department is not profitable.",
+        "B.The refrigerator department is profitable, but the computer department is not profitable.",
+        "C.The computer department is profitable, but the color TV department is not profitable.",
+        "D.Neither the refrigerator department nor the color TV department made a profit."
+      ],
+      "gt_answer": "B"
+    },
+    "perturbed": {
+      "question": "A holding company has four divisions, which produce bicycles, smart speakers, laptops and drones. According to the statistics of the first three quarters, the four division heads made the following predictions on the profitability of the whole year of 2025? 1.Bicycle division head? The drone division will make a profit this year.2.Head of the smart speaker division? If the bicycle division makes a profit this year, the smart speaker division will not make a profit.3.Laptop division head? If the drone division is not profitable this year, then the laptop division is not profitable.4.Head of the drone division? Both the bicycle and smart speaker divisions will make a profit this year.After the statistics for the whole year were completed, only one of the above four predictions was found to be in line with the facts.\n\nRegarding the profitability of the company's divisions for the whole year, which of the following may be true?",
+      "options": [
+        "A.The smart speaker division is profitable, but the bicycle division is not profitable.",
+        "B.The bicycle division is profitable, but the laptop division is not profitable.",
+        "C.The laptop division is profitable, but the smart speaker division is not profitable.",
+        "D.Neither the bicycle division nor the smart speaker division made a profit."
+      ],
+      "gt_answer": "B",
+      "verification_note": "Only surface entities were changed (refrigerator\u2192bicycle, color TV\u2192smart speaker, computer\u2192laptop, mobile phone\u2192drone; department\u2192division; year 2010\u21922025). The conditional and conjunctive statements and the 'only one prediction is true' constraint are identical, and the options map one-to-one to the originals, so the answer key B is carried over unchanged."
+    }
+  },
+  {
+    "original": {
+      "question": "Some engineers have a Ph.D., so some people who have obtained a Ph.D.are highly skilled.\n\nIn order for the above reasoning to be true, which of the following must be added as a premise?",
+      "options": [
+        "A.All highly skilled people are engineers.",
+        "B.Some people with high technical level have not obtained a doctorate.",
+        "C.Some engineers have a high technical level.",
+        "D.The technical level of all engineers is very high."
+      ],
+      "gt_answer": "D"
+    },
+    "perturbed": {
+      "question": "Some architects have a master's certificate, so some people who have obtained a master's certificate are highly proficient.\n\nIn order for the above reasoning to be valid, which of the following must be added as a premise?",
+      "options": [
+        "A.All highly proficient people are architects.",
+        "B.Some people with a high proficiency level have not obtained a master's certificate.",
+        "C.Some architects have a high proficiency level.",
+        "D.The proficiency level of all architects is very high."
+      ],
+      "gt_answer": "D",
+      "verification_note": "Structure preserved: 'Some S are P; therefore some P are H' requires 'All S are H' (option D). Option C is only 'some S are H', which does not guarantee the overlap with P; A reverses the relation; B is irrelevant. Correct answer remains D."
+    }
+  }
+]
